@@ -1,6 +1,5 @@
-# Render 免费账户仅允许 1 个免费 PostgreSQL。
-# 若已有数据库，请用本文件（只创建 Web 服务），并手动填写 DATABASE_URL。
-# 若账户尚无免费库，可使用 render-with-database.yaml 一键创建库+服务。
+# 仅当 Render 账户还没有任何免费 PostgreSQL 时使用此 Blueprint。
+# 若提示 "cannot have more than one active free tier database"，请改用 render.yaml。
 
 services:
   - type: web
@@ -13,7 +12,9 @@ services:
       - key: NODE_VERSION
         value: "20"
       - key: DATABASE_URL
-        sync: false
+        fromDatabase:
+          name: xuejia-db
+          property: connectionString
       - key: ADMIN_PASSWORD
         sync: false
       - key: ADMIN_SESSION_SECRET
@@ -26,3 +27,9 @@ services:
         sync: false
       - key: NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
         sync: false
+
+databases:
+  - name: xuejia-db
+    plan: free
+    databaseName: xuejia
+    user: xuejia

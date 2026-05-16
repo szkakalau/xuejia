@@ -60,10 +60,26 @@ npm run db:seed
 
 ## 部署（Render，推荐）
 
-1. 在 [Render](https://render.com) 用 Blueprint 导入本仓库的 [`render.yaml`](render.yaml)，或手动创建：
-   - **PostgreSQL** 数据库
-   - **Web Service**：连接 GitHub `szkakalau/xuejia`
-2. 环境变量：`DATABASE_URL`（可自动关联）、`ADMIN_PASSWORD`、`ADMIN_SESSION_SECRET`、`NEXT_PUBLIC_SITE_URL`、Stripe 相关
+**注意：** Render 免费账户只能有 **1 个** 免费 PostgreSQL。若 Blueprint 报错 `cannot have more than one active free tier database`，请复用已有数据库（见下方「方案 A」）。
+
+### 方案 A：已有免费 Postgres（最常见）
+
+1. [Render Dashboard](https://dashboard.render.com) → 打开你**现有的** PostgreSQL → **Connections** → 复制 **Internal Database URL**
+2. **New +** → **Blueprint** → 选仓库 `szkakalau/xuejia`（使用根目录 [`render.yaml`](render.yaml)，**不会**再创建新库）
+3. 手动填写环境变量：
+   - `DATABASE_URL` = 上一步复制的 Internal URL
+   - `ADMIN_PASSWORD`、`ADMIN_SESSION_SECRET` = 自行设置
+   - `NEXT_PUBLIC_SITE_URL` = 部署成功后的 `https://xuejia.onrender.com`
+4. 部署完成后在 Web Service **Shell** 执行：`npm run db:seed`
+
+### 方案 B：账户里还没有任何免费库
+
+使用 [`render-with-database.yaml`](render-with-database.yaml) 创建 Blueprint（会同时创建 `xuejia-db` + Web 服务）。
+
+### 方案 C：手动创建
+
+1. 创建 **Web Service**，连接 GitHub `szkakalau/xuejia`
+2. 环境变量：`DATABASE_URL`、`ADMIN_PASSWORD`、`ADMIN_SESSION_SECRET`、`NEXT_PUBLIC_SITE_URL`、Stripe 相关
 3. Build Command：
    ```bash
    npm install && npx prisma generate && npx prisma migrate deploy && npm run build
