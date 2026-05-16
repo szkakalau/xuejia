@@ -20,7 +20,7 @@ export function getDbErrorMessage(error: unknown): string {
     message.includes("P3009") ||
     message.includes("migrate")
   ) {
-    return "資料表尚未建立。免費版無 Shell：瀏覽器訪問 /api/setup/run?key=你的ADMIN_PASSWORD，或重新部署以自動 migrate+seed";
+    return "資料表尚未建立。請在瀏覽器打開：/api/setup/run?key=你的ADMIN_PASSWORD（與後台登入密碼相同）";
   }
 
   if (message.includes("Authentication failed") || message.includes("password")) {

@@ -1,6 +1,8 @@
+import { ensureDatabaseSchema } from "../src/lib/ensure-schema";
 import { disconnectSeedClient, seedIfEmpty } from "../src/lib/seed-database";
 
-seedIfEmpty()
+ensureDatabaseSchema()
+  .then(() => seedIfEmpty())
   .then((result) => {
     if (result.seeded) {
       console.log(`==> Seeded ${result.productCount} products.`);
