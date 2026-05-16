@@ -16,6 +16,7 @@ export default function ProductPage() {
   const product = getProductBySlug(slug);
   const { addItem } = useCart();
   const [qty, setQty] = useState(1);
+  const [added, setAdded] = useState(false);
 
   if (!product) {
     return (
@@ -29,6 +30,8 @@ export default function ProductPage() {
   const handleAdd = () => {
     if (!product.inStock) return;
     addItem(product.id, qty);
+    setAdded(true);
+    window.setTimeout(() => setAdded(false), 1500);
   };
 
   const handleBuyNow = () => {
@@ -40,7 +43,7 @@ export default function ProductPage() {
   return (
     <ShopShell>
       <PageHeader title={product.brandNameZh} backHref="/categories" />
-      <article className="pb-32">
+      <article className="pb-36">
         <div className="relative aspect-square w-full bg-surface-elevated">
           <Image
             src={product.image}
@@ -110,14 +113,14 @@ export default function ProductPage() {
           </Link>
         </div>
       </article>
-      <div className="fixed bottom-16 left-1/2 z-40 flex w-full max-w-lg -translate-x-1/2 gap-3 border-t border-surface-border bg-background/95 px-4 py-3 backdrop-blur-md">
+      <div className="fixed above-bottom-nav left-1/2 z-[60] flex w-full max-w-lg -translate-x-1/2 gap-3 border-t border-surface-border bg-background/98 px-4 py-3 shadow-[0_-4px_24px_rgba(0,0,0,0.4)] backdrop-blur-md">
         <button
           type="button"
           disabled={!product.inStock}
           onClick={handleAdd}
           className="flex-1 rounded-full border border-gold py-3 text-sm font-medium text-gold transition enabled:hover:bg-gold/10 disabled:opacity-40"
         >
-          加入購物車
+          {added ? "已加入 ✓" : "加入購物車"}
         </button>
         <button
           type="button"

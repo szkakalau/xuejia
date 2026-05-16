@@ -10,6 +10,7 @@
   --surface: #1a1612;
   --surface-elevated: #252019;
   --border: #3d3428;
+  --bottom-nav-height: calc(3.5rem + env(safe-area-inset-bottom, 0px));
 }
 
 * {
@@ -28,8 +29,14 @@ body {
 }
 
 @layer utilities {
-  .safe-pb {
-    padding-bottom: max(5rem, env(safe-area-inset-bottom));
+  .bottom-nav-safe {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .above-bottom-nav {
+    bottom: var(--bottom-nav-height);
+  }
+  .pb-bottom-nav {
+    padding-bottom: var(--bottom-nav-height);
   }
   .scrollbar-hide {
     -ms-overflow-style: none;
