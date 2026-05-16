@@ -1,16 +1,20 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { fetchJson } from "@/lib/api-client";
 import { ProductCard } from "@/components/ProductCard";
 import { PageHeader } from "@/components/PageHeader";
 import { ShopShell } from "@/components/ShopShell";
 import type { Brand, Product } from "@/types";
+
+type CatalogResponse = { brands: Brand[]; products: Product[] };
 
 export function CategoriesView() {
   const [brands, setBrands] = useState<Brand[]>([]);
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [hint, setHint] = useState("");
   const [activeBrand, setActiveBrand] = useState("");
 
   useEffect(() => {
@@ -19,22 +23,38 @@ export function CategoriesView() {
     (async () => {
       setLoading(true);
       setError("");
-      try {
-        const res = await fetch("/api/products");
-        const data = await res.json();
-        if (!res.ok) throw new Error(data.error || "無法載入商品");
-        if (cancelled) return;
-        const nextBrands = data.brands ?? [];
-        setBrands(nextBrands);
-        setProducts(data.products ?? []);
-        setActiveBrand((current) => current || nextBrands[0]?.id || "");
-      } catch (e) {
-        if (!cancelled) {
-          setError(e instanceof Error ? e.message : "無法載入商品，請稍後再試");
-        }
-      } finally {
-        if (!cancelled) setLoading(false);
+      setHint("");
+
+      const result = await fetchJson<CatalogResponse>("/api/products");
+      if (cancelled) return;
+
+      if (!result.ok) {
+        setError(result.error);
+        setLoading(false);
+        return;
       }
+
+      const nextBrands = result.data.brands ?? [];
+      const nextProducts = result.data.products ?? [];
+      setBrands(nextBrands);
+      setProducts(nextProducts);
+      setActiveBrand((current) => current || nextBrands[0]?.id || "");
+
+      if (nextProducts.length === 0) {
+        const health = await fetchJson<{
+          ok: boolean;
+          productCount?: number;
+          hint?: string;
+          error?: string;
+        }>("/api/health");
+        if (!cancelled && health.ok && health.data.hint) {
+          setHint(health.data.hint);
+        } else if (!cancelled && !health.ok) {
+          setHint("請在 Render Shell 執行：npx prisma migrate deploy && npm run db:seed");
+        }
+      }
+
+      setLoading(false);
     })();
 
     return () => {
@@ -57,8 +77,14 @@ export function CategoriesView() {
       ) : error ? (
         <div className="px-4 py-20 text-center">
           <p className="text-sm text-red-400">{error}</p>
-          <p className="mt-2 text-xs text-foreground/50">
-            若持續失敗，請確認已設定 DATABASE_URL，并在 Shell 執行 migrate 與 db:seed。
+          <p className="mt-3 text-xs leading-relaxed text-foreground/50">
+            請在 Render → Web 服務 → Environment 設置 DATABASE_URL，然後在 Shell 執行：
+          </p>
+          <pre className="mx-auto mt-2 max-w-sm overflow-x-auto rounded-lg bg-surface-elevated p-3 text-left text-[10px] text-foreground/70">
+            npx prisma migrate deploy{"\n"}npm run db:seed
+          </pre>
+          <p className="mt-2 text-xs text-foreground/40">
+            診斷：<a href="/api/health" className="text-gold underline" target="_blank" rel="noreferrer">/api/health</a>
           </p>
         </div>
       ) : (
@@ -83,6 +109,11 @@ export function CategoriesView() {
             ))}
           </aside>
           <section className="flex-1 overflow-y-auto px-3 scrollbar-hide">
+            {hint && (
+              <p className="border-b border-gold/30 bg-gold/10 px-2 py-2 text-center text-xs text-gold">
+                {hint}
+              </p>
+            )}
             {activeBrandInfo && (
               <div className="sticky top-0 z-10 bg-background/90 py-3 backdrop-blur-sm">
                 <h2 className="font-display text-base text-gold">{activeBrandInfo.name}</h2>
