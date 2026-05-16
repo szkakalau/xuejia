@@ -1,5 +1,8 @@
+-- Isolate cigar shop tables from other apps in the same database (e.g. ai_trend_forge).
+CREATE SCHEMA IF NOT EXISTS "xuejia";
+
 -- CreateTable
-CREATE TABLE "Brand" (
+CREATE TABLE "xuejia"."Brand" (
     "id" TEXT NOT NULL,
     "name" TEXT NOT NULL,
     "name_zh" TEXT NOT NULL,
@@ -9,7 +12,7 @@ CREATE TABLE "Brand" (
 );
 
 -- CreateTable
-CREATE TABLE "products" (
+CREATE TABLE "xuejia"."products" (
     "id" TEXT NOT NULL,
     "slug" TEXT NOT NULL,
     "brand_id" TEXT NOT NULL,
@@ -30,13 +33,13 @@ CREATE TABLE "products" (
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "Brand_slug_key" ON "Brand"("slug");
+CREATE UNIQUE INDEX "Brand_slug_key" ON "xuejia"."Brand"("slug");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "products_slug_key" ON "products"("slug");
+CREATE UNIQUE INDEX "products_slug_key" ON "xuejia"."products"("slug");
 
 -- CreateIndex
-CREATE INDEX "products_brand_id_idx" ON "products"("brand_id");
+CREATE INDEX "products_brand_id_idx" ON "xuejia"."products"("brand_id");
 
 -- AddForeignKey
-ALTER TABLE "products" ADD CONSTRAINT "products_brand_id_fkey" FOREIGN KEY ("brand_id") REFERENCES "Brand"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "xuejia"."products" ADD CONSTRAINT "products_brand_id_fkey" FOREIGN KEY ("brand_id") REFERENCES "xuejia"."Brand"("id") ON DELETE RESTRICT ON UPDATE CASCADE;

@@ -82,7 +82,7 @@ npm run db:seed
 2. 环境变量：`DATABASE_URL`、`ADMIN_PASSWORD`、`ADMIN_SESSION_SECRET`、`NEXT_PUBLIC_SITE_URL`、Stripe 相关
 3. Build / Start（见 `render.yaml`）：
    - Build：`npm install && npx prisma generate && npm run build`
-   - Start：`npx prisma migrate deploy && npm start`
+   - Start：`sh scripts/render-start.sh`（共享库若报 P3005 会自动 `db push`）
 4. 环境变量 **必须**填写 `DATABASE_URL`，否则部署失败
 5. 首次 Live 后在 Shell 执行：`npm run db:seed`
 
@@ -91,7 +91,13 @@ npm run db:seed
 1. Render 创建 Postgres，复制 **External Database URL**
 2. Vercel 导入项目，设置 `DATABASE_URL` 及上述环境变量
 3. Build 需包含 `prisma generate`（已写在 `package.json` 的 `build` 脚本）
-4. 在本地或 CI 对生产库执行一次 `npx prisma migrate deploy && npm run db:seed`
+4. 在本地或 CI 对生产库执行一次 `npx prisma migrate deploy`（或 `npx prisma db push`）与 `npm run db:seed`
+
+### 共享数据库（P3005）
+
+若 `DATABASE_URL` 指向已有其它项目表的库（如 `ai_trend_forge` 的 `public.users`），`migrate deploy` 会报 **P3005**。本项目表在 PostgreSQL **`xuejia` schema** 下，启动脚本会回退为 `prisma db push`，**不会**删除 `public` 里其它应用的表。切勿对共享库使用 `db push --accept-data-loss`。
+
+部署 Live 后在 Shell：`npm run db:seed`
 
 ## Stripe
 
