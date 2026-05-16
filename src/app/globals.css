@@ -3,14 +3,17 @@
 @tailwind utilities;
 
 :root {
-  --background: #0f0d0a;
-  --foreground: #f5f0e8;
-  --gold: #c9a227;
-  --gold-light: #e8c547;
-  --surface: #1a1612;
-  --surface-elevated: #252019;
-  --border: #3d3428;
-  --bottom-nav-height: calc(3.5rem + env(safe-area-inset-bottom, 0px));
+  --background: #0a0907;
+  --foreground: #f4efe6;
+  --gold: #d4af37;
+  --gold-light: #e8cc6a;
+  --gold-muted: #8a7344;
+  --surface: #14110e;
+  --surface-elevated: #1e1914;
+  --border: #3a3228;
+  --tobacco: #2a2218;
+  --cream: #c4b59a;
+  --bottom-nav-height: calc(5.25rem + env(safe-area-inset-bottom, 0px));
 }
 
 * {
@@ -26,6 +29,103 @@ body {
   color: var(--foreground);
   min-height: 100dvh;
   font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Ambient depth: warm vignette + subtle grain */
+.shop-ambient {
+  position: relative;
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse 120% 80% at 50% -20%, rgba(212, 175, 55, 0.08), transparent 55%),
+    radial-gradient(ellipse 80% 50% at 100% 100%, rgba(42, 34, 24, 0.9), transparent 50%),
+    var(--background);
+}
+
+.shop-ambient::before {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.35;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+}
+
+.shop-ambient > * {
+  position: relative;
+  z-index: 1;
+}
+
+@layer components {
+  .gold-rule {
+    @apply h-px w-12 bg-gradient-to-r from-transparent via-gold to-transparent;
+  }
+
+  .gold-rule-wide {
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      color-mix(in srgb, var(--gold) 50%, transparent),
+      transparent
+    );
+  }
+
+  .btn-primary {
+    @apply rounded-full bg-gold px-6 py-3 text-sm font-medium tracking-wide text-background shadow-gold transition-all duration-300 enabled:hover:bg-gold-light enabled:hover:shadow-gold-lg enabled:active:scale-[0.98] disabled:opacity-40;
+  }
+
+  .btn-outline {
+    @apply rounded-full border px-6 py-3 text-sm font-medium tracking-wide text-gold transition-all duration-300 enabled:hover:border-gold enabled:active:scale-[0.98] disabled:opacity-40;
+    border-color: color-mix(in srgb, var(--gold) 70%, transparent);
+  }
+
+  .btn-outline:enabled:hover {
+    background: color-mix(in srgb, var(--gold) 10%, transparent);
+  }
+
+  .input-luxury {
+    @apply w-full rounded-full border border-surface-border px-5 py-3 text-sm text-foreground shadow-inner-glow outline-none transition-all duration-300;
+    background: color-mix(in srgb, var(--surface-elevated) 80%, transparent);
+  }
+
+  .input-luxury::placeholder {
+    color: color-mix(in srgb, var(--foreground) 35%, transparent);
+  }
+
+  .input-luxury:focus {
+    border-color: color-mix(in srgb, var(--gold) 50%, transparent);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--gold) 15%, transparent);
+  }
+
+  .card-surface {
+    @apply rounded-2xl border backdrop-blur-sm;
+    border-color: color-mix(in srgb, var(--border) 80%, transparent);
+    background: color-mix(in srgb, var(--surface-elevated) 60%, transparent);
+  }
+
+  .image-frame {
+    @apply relative overflow-hidden rounded-xl ring-1 ring-offset-2;
+    --tw-ring-color: color-mix(in srgb, var(--gold) 20%, transparent);
+    --tw-ring-offset-color: var(--background);
+  }
+
+  .brand-pill-active {
+    @apply relative bg-surface-elevated text-gold;
+  }
+
+  .brand-pill-active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 12%;
+    bottom: 12%;
+    width: 2px;
+    background: linear-gradient(180deg, transparent, var(--gold), transparent);
+    border-radius: 1px;
+  }
 }
 
 @layer utilities {
@@ -45,4 +145,56 @@ body {
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
+
+  .animate-fade-up {
+    animation: fade-up 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.4s ease-out both;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--surface) 0%,
+    var(--surface-elevated) 50%,
+    var(--surface) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
 }

@@ -7,7 +7,7 @@ import "./globals.css";
 
 const display = Cormorant_Garamond({
   subsets: ["latin"],
-  weight: ["400", "600", "700"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-display",
 });
 
@@ -18,15 +18,15 @@ const sans = Noto_Sans_TC({
 });
 
 export const metadata: Metadata = {
-  title: "古巴雪茄零售",
-  description: "精品古巴雪茄 — 品牌分類、線上選購",
+  title: "古巴雪茄 · 精品零售",
+  description: "精品古巴雪茄 — 品牌分類、線上選購 · 港幣標價",
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,
-  themeColor: "#0f0d0a",
+  themeColor: "#0a0907",
 };
 
 export default function RootLayout({
@@ -39,7 +39,7 @@ export default function RootLayout({
       <body className="antialiased">
         <CartProvider>
           <AgeGate />
-          <div className="mx-auto min-h-dvh max-w-lg bg-[var(--background)]">
+          <div className="shop-ambient mx-auto min-h-dvh max-w-lg shadow-[0_0_80px_rgba(0,0,0,0.5)]">
             {children}
             <Footer />
           </div>
