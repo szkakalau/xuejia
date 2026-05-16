@@ -56,10 +56,24 @@ npm run dev
 
 ## 部署（Vercel）
 
-1. 推送至 GitHub
-2. 在 Vercel 导入项目
-3. 配置环境变量
-4. Stripe Dashboard 添加 Webhook：`https://您的域名/api/webhooks/stripe`，事件 `checkout.session.completed`
+1. 打开 [Vercel Dashboard](https://vercel.com/new) → **Import** 仓库 `szkakalau/xuejia`
+2. **Root Directory** 留空（使用仓库根目录，确保能看到 `package.json`）
+3. **Framework Preset** 选 **Next.js**（会自动识别）
+4. 添加环境变量（见 `.env.example`），至少设置 `NEXT_PUBLIC_SITE_URL` 为你的 Vercel 域名（如 `https://xuejia.vercel.app`）
+5. 点击 **Deploy**，等待 Build 显示 **Ready**
+6. 使用 Vercel 提供的 **Production URL** 访问（不要用未部署成功的旧链接）
+
+### 若出现 `404: NOT_FOUND`（Code: NOT_FOUND）
+
+这是 **Vercel 没有可用部署**，不是网站页面 404。请检查：
+
+- 部署列表里最新一次是否为 **Ready**（若为 **Error**，点开查看 Build Log）
+- 访问的域名是否为当前项目的 Production URL
+- 重新 **Redeploy** 一次
+
+### Stripe Webhook
+
+`https://您的域名/api/webhooks/stripe`，事件 `checkout.session.completed`
 
 ## 技术栈
 
