@@ -60,9 +60,53 @@ npm run db:seed
 
 ## 部署（Render，推荐）
 
-**注意：** Render 免费账户只能有 **1 个** 免费 PostgreSQL。若 Blueprint 报错 `cannot have more than one active free tier database`，请复用已有数据库（见下方「方案 A」）。
+**注意：** Render 免费账户只能有 **1 个** 免费 PostgreSQL。雪茄站建议用**专用空库**（见「方案 D」），避免与 `ai_trend_forge` 等同库冲突。
 
-### 方案 A：已有免费 Postgres（最常见）
+### 方案 D：雪茄站专用空库（推荐，只改 `DATABASE_URL`）
+
+适合当前已把 Web 服务连到 `ai_trend_forge` 等共享库、部署报 P3005 / `db push` 的情况。
+
+1. **腾出免费库名额（二选一）**
+   - 若账户里已有不用的免费 Postgres：Dashboard → 该库 → **Settings** → **Delete Database**（确认不再需要后再删）。
+   - 或升级付费计划以允许多个库（可选）。
+
+2. **新建空库**
+   - Dashboard → **New +** → **PostgreSQL**
+   - Name 建议：`xuejia-db`
+   - Database / User 可保持默认或填 `xuejia`
+   - Region 与 Web 服务 **相同**（降低延迟）
+   - Plan：**Free** → **Create Database**
+
+3. **复制连接串**
+   - 打开新建的 `xuejia-db` → **Connections**
+   - 复制 **Internal Database URL**（Web 与库同在 Render 时用此项；本地调试用 External URL）
+
+4. **只改 Web 服务环境变量**
+   - Dashboard → 服务 **xuejia** → **Environment**
+   - 将 `DATABASE_URL` 改为上一步的 Internal URL（覆盖旧的 `ai_trend_forge` 地址）
+   - **Save Changes**（会触发重新部署）
+
+5. **确认启动命令**（Settings → Start Command）：
+   ```bash
+   sh scripts/render-start.sh
+   ```
+
+6. **看部署日志**
+   - 空库上应出现：`Migrations applied.`（不再 P3005）
+   - 然后：`Starting Next.js...` → 状态 **Live**
+
+7. **导入商品**（Shell，仅首次、且 `productCount` 为 0 时）：
+   ```bash
+   npm run db:seed
+   ```
+
+8. **验证**
+   - `https://xuejia.onrender.com/api/health` → `"ok":true`
+   - `/admin/login`、`/categories`
+
+表在 PostgreSQL schema **`xuejia`** 下，与 `public` 里其它项目无关。`ai_trend_forge` 可继续给原项目使用，无需改其 `DATABASE_URL`。
+
+### 方案 A：复用已有免费 Postgres（共享库，不推荐生产）
 
 1. [Render Dashboard](https://dashboard.render.com) → 打开你**现有的** PostgreSQL → **Connections** → 复制 **Internal Database URL**
 2. **New +** → **Blueprint** → 选仓库 `szkakalau/xuejia`（使用根目录 [`render.yaml`](render.yaml)，**不会**再创建新库）
@@ -93,11 +137,9 @@ npm run db:seed
 3. Build 需包含 `prisma generate`（已写在 `package.json` 的 `build` 脚本）
 4. 在本地或 CI 对生产库执行一次 `npx prisma migrate deploy`（或 `npx prisma db push`）与 `npm run db:seed`
 
-### 共享数据库（P3005）
+### 共享数据库（P3005，仅方案 A）
 
-若 `DATABASE_URL` 指向已有其它项目表的库（如 `ai_trend_forge` 的 `public.users`），`migrate deploy` 会报 **P3005**。本项目表在 PostgreSQL **`xuejia` schema** 下，启动脚本会回退为 `prisma db push`，**不会**删除 `public` 里其它应用的表。切勿对共享库使用 `db push --accept-data-loss`。
-
-部署 Live 后在 Shell：`npm run db:seed`
+若仍共用 `ai_trend_forge` 等已有表的库，`migrate deploy` 会报 **P3005**。表在 **`xuejia` schema**；启动脚本会回退 `db push`，**切勿**使用 `--accept-data-loss`。长期请改用 **方案 D 专用空库**。
 
 ## Stripe
 
