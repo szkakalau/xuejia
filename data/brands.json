@@ -1,0 +1,80 @@
+[
+  {
+    "id": "cohiba",
+    "name": "COHIBA",
+    "nameZh": "高希霸",
+    "slug": "cohiba"
+  },
+  {
+    "id": "trinidad",
+    "name": "TRINIDAD",
+    "nameZh": "千里達",
+    "slug": "trinidad"
+  },
+  {
+    "id": "bolivar",
+    "name": "BOLIVAR",
+    "nameZh": "保利華",
+    "slug": "bolivar"
+  },
+  {
+    "id": "combinaccion",
+    "name": "COMBINACCION",
+    "nameZh": "組合",
+    "slug": "combinaccion"
+  },
+  {
+    "id": "h-upmann",
+    "name": "H.UPANN",
+    "nameZh": "優民",
+    "slug": "h-upmann"
+  },
+  {
+    "id": "hoyo",
+    "name": "HOYO DE MONTERREY",
+    "nameZh": "好友",
+    "slug": "hoyo"
+  },
+  {
+    "id": "montecristo",
+    "name": "MONTECRISTO",
+    "nameZh": "蒙特",
+    "slug": "montecristo"
+  },
+  {
+    "id": "partagas",
+    "name": "PARTAGAS",
+    "nameZh": "帕特加斯",
+    "slug": "partagas"
+  },
+  {
+    "id": "juan-lopez",
+    "name": "JUAN LOPEZ",
+    "nameZh": "胡安洛佩斯",
+    "slug": "juan-lopez"
+  },
+  {
+    "id": "ramon-allones",
+    "name": "RAMON ALLONES",
+    "nameZh": "雷蒙阿隆尼",
+    "slug": "ramon-allones"
+  },
+  {
+    "id": "romeo",
+    "name": "ROMEO Y JULIETA",
+    "nameZh": "羅密歐",
+    "slug": "romeo"
+  },
+  {
+    "id": "san-cristobal",
+    "name": "SAN CRISTOBAL DE LA HABANA",
+    "nameZh": "聖克里斯多",
+    "slug": "san-cristobal"
+  },
+  {
+    "id": "davidoff",
+    "name": "Davidoff",
+    "nameZh": "大衛杜夫",
+    "slug": "davidoff"
+  }
+]

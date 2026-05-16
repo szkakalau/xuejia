@@ -1,0 +1,3692 @@
+[
+  {
+    "id": "cohiba-siglo-ii-129mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "SIGLO II",
+    "nameZh": "高希霸世纪二号",
+    "specs": {
+      "length": "129mm",
+      "ringGauge": 42,
+      "packaging": ""
+    },
+    "priceHkd": 18000,
+    "priceDisplay": "18000",
+    "inStock": true,
+    "image": "/products/cohiba-siglo-ii-129mm.jpg",
+    "slug": "cohiba-siglo-ii-129mm"
+  },
+  {
+    "id": "cohiba-siglo-i-102mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "SIGLO I",
+    "nameZh": "SIGLO I",
+    "specs": {
+      "length": "102mm",
+      "ringGauge": 40,
+      "packaging": ""
+    },
+    "priceHkd": 14000,
+    "priceDisplay": "14000",
+    "inStock": true,
+    "image": "/products/cohiba-siglo-i-102mm.jpg",
+    "slug": "cohiba-siglo-i-102mm"
+  },
+  {
+    "id": "cohiba-siglo-ii-129mm-1",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "SIGLO II",
+    "nameZh": "SIGLO II",
+    "specs": {
+      "length": "129mm",
+      "ringGauge": 42,
+      "packaging": ""
+    },
+    "priceHkd": 11000,
+    "priceDisplay": "11000",
+    "inStock": true,
+    "image": "/products/cohiba-siglo-ii-129mm-1.jpg",
+    "slug": "cohiba-siglo-ii-129mm-1"
+  },
+  {
+    "id": "cohiba-siglo-ii-129mm-2",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "SIGLO II",
+    "nameZh": "SIGLO II",
+    "specs": {
+      "length": "129mm",
+      "ringGauge": 42,
+      "packaging": ""
+    },
+    "priceHkd": 18000,
+    "priceDisplay": "18000",
+    "inStock": true,
+    "image": "/products/cohiba-siglo-ii-129mm-2.jpg",
+    "slug": "cohiba-siglo-ii-129mm-2"
+  },
+  {
+    "id": "cohiba-siglo-iii-102mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "SIGLO III",
+    "nameZh": "高希霸世纪三号",
+    "specs": {
+      "length": "102mm",
+      "ringGauge": 40,
+      "packaging": ""
+    },
+    "priceHkd": 28000,
+    "priceDisplay": "28000",
+    "inStock": true,
+    "image": "/products/cohiba-siglo-iii-102mm.jpg",
+    "slug": "cohiba-siglo-iii-102mm"
+  },
+  {
+    "id": "cohiba-iii-2-5-155mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "III",
+    "nameZh": "III",
+    "specs": {
+      "length": "155mm",
+      "ringGauge": 42,
+      "packaging": "2/5支裝"
+    },
+    "priceHkd": 27000,
+    "priceDisplay": "27000",
+    "inStock": true,
+    "image": "/products/cohiba-iii-2-5-155mm.jpg",
+    "slug": "cohiba-iii-2-5-155mm"
+  },
+  {
+    "id": "cohiba-siglo-iv-143mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "SIGLO IV",
+    "nameZh": "SIGLO IV",
+    "specs": {
+      "length": "143mm",
+      "ringGauge": 46,
+      "packaging": ""
+    },
+    "priceHkd": 31000,
+    "priceDisplay": "31000",
+    "inStock": true,
+    "image": "/products/cohiba-siglo-iv-143mm.png",
+    "slug": "cohiba-siglo-iv-143mm"
+  },
+  {
+    "id": "cohiba-slglo-v-25-170mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "SLGLO V",
+    "nameZh": "SLGLO V",
+    "specs": {
+      "length": "170mm",
+      "ringGauge": 43,
+      "packaging": "25支裝"
+    },
+    "priceHkd": 40000,
+    "priceDisplay": "40000",
+    "inStock": true,
+    "image": "/products/cohiba-slglo-v-25-170mm.png",
+    "slug": "cohiba-slglo-v-25-170mm"
+  },
+  {
+    "id": "cohiba-robusto-124mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "ROBUSTO",
+    "nameZh": "高希霸罗布图ROBUSTO",
+    "specs": {
+      "length": "124mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 34000,
+    "priceDisplay": "34000",
+    "inStock": true,
+    "image": "/products/cohiba-robusto-124mm.jpg",
+    "slug": "cohiba-robusto-124mm"
+  },
+  {
+    "id": "cohiba-robusto-124mm-1",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "ROBUSTO",
+    "nameZh": "ROBUSTO",
+    "specs": {
+      "length": "124mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/cohiba-robusto-124mm-1.jpg",
+    "slug": "cohiba-robusto-124mm-1"
+  },
+  {
+    "id": "cohiba-robusto-124mm-2",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "ROBUSTO",
+    "nameZh": "ROBUSTO",
+    "specs": {
+      "length": "124mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 18400,
+    "priceDisplay": "18400",
+    "inStock": true,
+    "image": "/products/cohiba-robusto-124mm-2.jpg",
+    "slug": "cohiba-robusto-124mm-2"
+  },
+  {
+    "id": "cohiba-siglo-vi-150mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "SIGLO VI",
+    "nameZh": "SIGLO VI",
+    "specs": {
+      "length": "150mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/cohiba-siglo-vi-150mm.jpg",
+    "slug": "cohiba-siglo-vi-150mm"
+  },
+  {
+    "id": "cohiba-medio-slglo-15-105mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "MEDIO SLGLO",
+    "nameZh": "高希霸半世紀鋁筒MEDIO SLGLO",
+    "specs": {
+      "length": "105mm",
+      "ringGauge": 52,
+      "packaging": "15支裝"
+    },
+    "priceHkd": 16400,
+    "priceDisplay": "16400",
+    "inStock": true,
+    "image": "/products/cohiba-medio-slglo-15-105mm.jpg",
+    "slug": "cohiba-medio-slglo-15-105mm"
+  },
+  {
+    "id": "cohiba-15-178mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "高希霸导师纸盒",
+    "nameZh": "高希霸导师纸盒",
+    "specs": {
+      "length": "178mm",
+      "ringGauge": 47,
+      "packaging": "15支裝"
+    },
+    "priceHkd": 30000,
+    "priceDisplay": "30000",
+    "inStock": true,
+    "image": "/products/cohiba-15-178mm.jpg",
+    "slug": "cohiba-15-178mm"
+  },
+  {
+    "id": "cohiba-medio-siglo-105mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "MEDIO SIGLO",
+    "nameZh": "MEDIO SIGLO",
+    "specs": {
+      "length": "105mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 27400,
+    "priceDisplay": "27400",
+    "inStock": true,
+    "image": "/products/cohiba-medio-siglo-105mm.jpg",
+    "slug": "cohiba-medio-siglo-105mm"
+  },
+  {
+    "id": "cohiba-25-126mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "高希霸吉士圖紙盒",
+    "nameZh": "高希霸吉士圖紙盒",
+    "specs": {
+      "length": "126mm",
+      "ringGauge": 33,
+      "packaging": "25支裝"
+    },
+    "priceHkd": 11600,
+    "priceDisplay": "11600",
+    "inStock": true,
+    "image": "/products/cohiba-25-126mm.png",
+    "slug": "cohiba-25-126mm"
+  },
+  {
+    "id": "cohiba-siglo-vi-150mm-1",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "SIGLO VI",
+    "nameZh": "高希霸世纪六号",
+    "specs": {
+      "length": "150mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 45400,
+    "priceDisplay": "45400",
+    "inStock": true,
+    "image": "/products/cohiba-siglo-vi-150mm-1.png",
+    "slug": "cohiba-siglo-vi-150mm-1"
+  },
+  {
+    "id": "cohiba-siglo-vi-150mm-2",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "SIGLO VI",
+    "nameZh": "SIGLO VI",
+    "specs": {
+      "length": "150mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 24000,
+    "priceDisplay": "24000",
+    "inStock": true,
+    "image": "/products/cohiba-siglo-vi-150mm-2.png",
+    "slug": "cohiba-siglo-vi-150mm-2"
+  },
+  {
+    "id": "cohiba-talisman-2017-154mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "TALISMAN 2017",
+    "nameZh": "TALISMAN 2017",
+    "specs": {
+      "length": "154mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 60000,
+    "priceDisplay": "60000",
+    "inStock": true,
+    "image": "/products/cohiba-talisman-2017-154mm.jpg",
+    "slug": "cohiba-talisman-2017-154mm"
+  },
+  {
+    "id": "cohiba-piramides-extra-160mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "PIRAMIDES EXTRA",
+    "nameZh": "PIRAMIDES EXTRA",
+    "specs": {
+      "length": "160mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 30000,
+    "priceDisplay": "30000",
+    "inStock": true,
+    "image": "/products/cohiba-piramides-extra-160mm.jpg",
+    "slug": "cohiba-piramides-extra-160mm"
+  },
+  {
+    "id": "cohiba-magicos-2-5-115mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "MAGICOS",
+    "nameZh": "高希霸魔術師（中天才）",
+    "specs": {
+      "length": "115mm",
+      "ringGauge": 52,
+      "packaging": "2/5支裝"
+    },
+    "priceHkd": 44000,
+    "priceDisplay": "44000",
+    "inStock": true,
+    "image": "/products/cohiba-magicos-2-5-115mm.jpg",
+    "slug": "cohiba-magicos-2-5-115mm"
+  },
+  {
+    "id": "cohiba-genios-140mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "GENIOS",
+    "nameZh": "GENIOS",
+    "specs": {
+      "length": "140mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/cohiba-genios-140mm.jpg",
+    "slug": "cohiba-genios-140mm"
+  },
+  {
+    "id": "cohiba-88-82mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "高希霸虎年限量短号",
+    "nameZh": "高希霸虎年限量短号",
+    "specs": {
+      "length": "82mm",
+      "ringGauge": 27,
+      "packaging": "88支裝"
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/cohiba-88-82mm.jpg",
+    "slug": "cohiba-88-82mm"
+  },
+  {
+    "id": "cohiba-secretos-10-110mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "SECRETOS",
+    "nameZh": "SECRETOS",
+    "specs": {
+      "length": "110mm",
+      "ringGauge": 40,
+      "packaging": "10支裝"
+    },
+    "priceHkd": 28000,
+    "priceDisplay": "28000",
+    "inStock": true,
+    "image": "/products/cohiba-secretos-10-110mm.jpg",
+    "slug": "cohiba-secretos-10-110mm"
+  },
+  {
+    "id": "cohiba-2019-10-80mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "高希霸 2019 限量迷你",
+    "nameZh": "高希霸2019限量迷你",
+    "specs": {
+      "length": "80mm",
+      "ringGauge": 20,
+      "packaging": "10支裝"
+    },
+    "priceHkd": 2400,
+    "priceDisplay": "2400",
+    "inStock": true,
+    "image": "/products/cohiba-2019-10-80mm.jpg",
+    "slug": "cohiba-2019-10-80mm"
+  },
+  {
+    "id": "cohiba-16-413mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "高希霸世紀四號豬年",
+    "nameZh": "高希霸世紀四號豬年",
+    "specs": {
+      "length": "413mm",
+      "ringGauge": 46,
+      "packaging": "16支裝"
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/cohiba-16-413mm.jpg",
+    "slug": "cohiba-16-413mm"
+  },
+  {
+    "id": "cohiba-16-115mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "高希霸中天才狗年限量",
+    "nameZh": "高希霸中天才狗年限量",
+    "specs": {
+      "length": "115mm",
+      "ringGauge": 52,
+      "packaging": "16支裝"
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/cohiba-16-115mm.jpg",
+    "slug": "cohiba-16-115mm"
+  },
+  {
+    "id": "cohiba-bhk56-10-16mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "BHK56",
+    "nameZh": "高希霸BHK56",
+    "specs": {
+      "length": "16mm",
+      "ringGauge": 56,
+      "packaging": "10支裝"
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/cohiba-bhk56-10-16mm.jpg",
+    "slug": "cohiba-bhk56-10-16mm"
+  },
+  {
+    "id": "cohiba-bhk-52-119mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "BHK 52",
+    "nameZh": "BHK 52",
+    "specs": {
+      "length": "119mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 46000,
+    "priceDisplay": "46000",
+    "inStock": true,
+    "image": "/products/cohiba-bhk-52-119mm.png",
+    "slug": "cohiba-bhk-52-119mm"
+  },
+  {
+    "id": "cohiba-10-166mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "限量",
+    "nameZh": "限量",
+    "specs": {
+      "length": "166mm",
+      "ringGauge": 52,
+      "packaging": "10支裝"
+    },
+    "priceHkd": 100000,
+    "priceDisplay": "100000",
+    "inStock": true,
+    "image": "/products/cohiba-10-166mm.png",
+    "slug": "cohiba-10-166mm"
+  },
+  {
+    "id": "cohiba-bhk54-10-144mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "BHK54",
+    "nameZh": "BHK54",
+    "specs": {
+      "length": "144mm",
+      "ringGauge": 54,
+      "packaging": "10支裝"
+    },
+    "priceHkd": 56000,
+    "priceDisplay": "56000",
+    "inStock": true,
+    "image": "/products/cohiba-bhk54-10-144mm.png",
+    "slug": "cohiba-bhk54-10-144mm"
+  },
+  {
+    "id": "cohiba-club-97mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "CLUB",
+    "nameZh": "高希霸俱乐部CLUB",
+    "specs": {
+      "length": "97mm",
+      "ringGauge": 22,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/cohiba-club-97mm.jpg",
+    "slug": "cohiba-club-97mm"
+  },
+  {
+    "id": "cohiba-club-97mm-1",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "CLUB",
+    "nameZh": "CLUB",
+    "specs": {
+      "length": "97mm",
+      "ringGauge": 22,
+      "packaging": ""
+    },
+    "priceHkd": 2000,
+    "priceDisplay": "2000",
+    "inStock": true,
+    "image": "/products/cohiba-club-97mm-1.jpg",
+    "slug": "cohiba-club-97mm-1"
+  },
+  {
+    "id": "cohiba-short-82mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "SHORT",
+    "nameZh": "SHORT",
+    "specs": {
+      "length": "82mm",
+      "ringGauge": 27,
+      "packaging": ""
+    },
+    "priceHkd": 3000,
+    "priceDisplay": "3000",
+    "inStock": true,
+    "image": "/products/cohiba-short-82mm.jpg",
+    "slug": "cohiba-short-82mm"
+  },
+  {
+    "id": "cohiba-short-50-82mm",
+    "brandId": "cohiba",
+    "brandName": "COHIBA",
+    "brandNameZh": "高希霸",
+    "name": "SHORT",
+    "nameZh": "SHORT",
+    "specs": {
+      "length": "82mm",
+      "ringGauge": 27,
+      "packaging": "50支裝"
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/cohiba-short-50-82mm.png",
+    "slug": "cohiba-short-50-82mm"
+  },
+  {
+    "id": "trinidad-reyes-110mm",
+    "brandId": "trinidad",
+    "brandName": "TRINIDAD",
+    "brandNameZh": "千里達",
+    "name": "REYES",
+    "nameZh": "千里达雷亚斯REYES",
+    "specs": {
+      "length": "110mm",
+      "ringGauge": 40,
+      "packaging": ""
+    },
+    "priceHkd": 5400,
+    "priceDisplay": "5400",
+    "inStock": true,
+    "image": "/products/trinidad-reyes-110mm.jpg",
+    "slug": "trinidad-reyes-110mm"
+  },
+  {
+    "id": "trinidad-reyes-110mm-1",
+    "brandId": "trinidad",
+    "brandName": "TRINIDAD",
+    "brandNameZh": "千里達",
+    "name": "REYES",
+    "nameZh": "REYES",
+    "specs": {
+      "length": "110mm",
+      "ringGauge": 40,
+      "packaging": ""
+    },
+    "priceHkd": 10800,
+    "priceDisplay": "10800",
+    "inStock": true,
+    "image": "/products/trinidad-reyes-110mm-1.jpg",
+    "slug": "trinidad-reyes-110mm-1"
+  },
+  {
+    "id": "trinidad-vigia-110mm",
+    "brandId": "trinidad",
+    "brandName": "TRINIDAD",
+    "brandNameZh": "千里達",
+    "name": "VIGIA",
+    "nameZh": "VIGIA",
+    "specs": {
+      "length": "110mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 10000,
+    "priceDisplay": "10000",
+    "inStock": true,
+    "image": "/products/trinidad-vigia-110mm.png",
+    "slug": "trinidad-vigia-110mm"
+  },
+  {
+    "id": "trinidad-15-110mm",
+    "brandId": "trinidad",
+    "brandName": "TRINIDAD",
+    "brandNameZh": "千里達",
+    "name": "暗礁筒",
+    "nameZh": "暗礁筒",
+    "specs": {
+      "length": "110mm",
+      "ringGauge": 54,
+      "packaging": "15支裝"
+    },
+    "priceHkd": 13000,
+    "priceDisplay": "13000",
+    "inStock": true,
+    "image": "/products/trinidad-15-110mm.jpg",
+    "slug": "trinidad-15-110mm"
+  },
+  {
+    "id": "trinidad-24-192mm",
+    "brandId": "trinidad",
+    "brandName": "TRINIDAD",
+    "brandNameZh": "千里達",
+    "name": "千里达创建",
+    "nameZh": "千里达创建",
+    "specs": {
+      "length": "192mm",
+      "ringGauge": 39,
+      "packaging": "24支裝"
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/trinidad-24-192mm.jpg",
+    "slug": "trinidad-24-192mm"
+  },
+  {
+    "id": "trinidad-12-125mm",
+    "brandId": "trinidad",
+    "brandName": "TRINIDAD",
+    "brandNameZh": "千里達",
+    "name": "千里达尖端",
+    "nameZh": "千里达尖端",
+    "specs": {
+      "length": "125mm",
+      "ringGauge": 56,
+      "packaging": "12支裝"
+    },
+    "priceHkd": 16000,
+    "priceDisplay": "16000",
+    "inStock": true,
+    "image": "/products/trinidad-12-125mm.jpg",
+    "slug": "trinidad-12-125mm"
+  },
+  {
+    "id": "trinidad-media-luna-115mm",
+    "brandId": "trinidad",
+    "brandName": "TRINIDAD",
+    "brandNameZh": "千里達",
+    "name": "MEDIA LUNA",
+    "nameZh": "千里达露娜MEDIA LUNA",
+    "specs": {
+      "length": "115mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 12000,
+    "priceDisplay": "12000",
+    "inStock": true,
+    "image": "/products/trinidad-media-luna-115mm.jpg",
+    "slug": "trinidad-media-luna-115mm"
+  },
+  {
+    "id": "trinidad-esmeralda-145mm",
+    "brandId": "trinidad",
+    "brandName": "TRINIDAD",
+    "brandNameZh": "千里達",
+    "name": "ESMERALDA",
+    "nameZh": "ESMERALDA",
+    "specs": {
+      "length": "145mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 16000,
+    "priceDisplay": "16000",
+    "inStock": true,
+    "image": "/products/trinidad-esmeralda-145mm.png",
+    "slug": "trinidad-esmeralda-145mm"
+  },
+  {
+    "id": "trinidad-shorts-82mm",
+    "brandId": "trinidad",
+    "brandName": "TRINIDAD",
+    "brandNameZh": "千里達",
+    "name": "SHORTS",
+    "nameZh": "SHORTS",
+    "specs": {
+      "length": "82mm",
+      "ringGauge": 22,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/trinidad-shorts-82mm.jpg",
+    "slug": "trinidad-shorts-82mm"
+  },
+  {
+    "id": "trinidad-coloniales-132mm",
+    "brandId": "trinidad",
+    "brandName": "TRINIDAD",
+    "brandNameZh": "千里達",
+    "name": "COLONIALES",
+    "nameZh": "COLONIALES",
+    "specs": {
+      "length": "132mm",
+      "ringGauge": 44,
+      "packaging": ""
+    },
+    "priceHkd": 18000,
+    "priceDisplay": "18000",
+    "inStock": true,
+    "image": "/products/trinidad-coloniales-132mm.jpg",
+    "slug": "trinidad-coloniales-132mm"
+  },
+  {
+    "id": "bolivar-belicosos-25-140mm",
+    "brandId": "bolivar",
+    "brandName": "BOLIVAR",
+    "brandNameZh": "保利華",
+    "name": "BELICOSOS",
+    "nameZh": "玻利瓦尔彪麗高BELICOSOS",
+    "specs": {
+      "length": "140mm",
+      "ringGauge": 52,
+      "packaging": "25支裝"
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/bolivar-belicosos-25-140mm.jpg",
+    "slug": "bolivar-belicosos-25-140mm"
+  },
+  {
+    "id": "bolivar-belicosos-140mm",
+    "brandId": "bolivar",
+    "brandName": "BOLIVAR",
+    "brandNameZh": "保利華",
+    "name": "BELICOSOS",
+    "nameZh": "BELICOSOS",
+    "specs": {
+      "length": "140mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/bolivar-belicosos-140mm.jpg",
+    "slug": "bolivar-belicosos-140mm"
+  },
+  {
+    "id": "bolivar-royal-coronas-124mm",
+    "brandId": "bolivar",
+    "brandName": "BOLIVAR",
+    "brandNameZh": "保利華",
+    "name": "ROYAL CORONAS",
+    "nameZh": "ROYAL CORONAS",
+    "specs": {
+      "length": "124mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/bolivar-royal-coronas-124mm.jpg",
+    "slug": "bolivar-royal-coronas-124mm"
+  },
+  {
+    "id": "combinaccion-selec-petit-robustos",
+    "brandId": "combinaccion",
+    "brandName": "COMBINACCION",
+    "brandNameZh": "組合",
+    "name": "SELEC PETIT ROBUSTOS",
+    "nameZh": "古巴混合精选小罗布图SELEC PETIT ROBUSTOS",
+    "specs": {
+      "length": "",
+      "ringGauge": null,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/combinaccion-selec-petit-robustos.jpg",
+    "slug": "combinaccion-selec-petit-robustos"
+  },
+  {
+    "id": "combinaccion-seleccion-piramides-156mm",
+    "brandId": "combinaccion",
+    "brandName": "COMBINACCION",
+    "brandNameZh": "組合",
+    "name": "SELECCION PIRAMIDES",
+    "nameZh": "SELECCION PIRAMIDES",
+    "specs": {
+      "length": "156mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 4600,
+    "priceDisplay": "4600",
+    "inStock": true,
+    "image": "/products/combinaccion-seleccion-piramides-156mm.png",
+    "slug": "combinaccion-seleccion-piramides-156mm"
+  },
+  {
+    "id": "combinaccion-robustos-124mm",
+    "brandId": "combinaccion",
+    "brandName": "COMBINACCION",
+    "brandNameZh": "組合",
+    "name": "ROBUSTOS",
+    "nameZh": "ROBUSTOS",
+    "specs": {
+      "length": "124mm",
+      "ringGauge": 60,
+      "packaging": ""
+    },
+    "priceHkd": 4000,
+    "priceDisplay": "4000",
+    "inStock": true,
+    "image": "/products/combinaccion-robustos-124mm.jpg",
+    "slug": "combinaccion-robustos-124mm"
+  },
+  {
+    "id": "h-upmann-magnum-46-143mm",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "MAGNUM 46",
+    "nameZh": "优民46MAGNUM 46",
+    "specs": {
+      "length": "143mm",
+      "ringGauge": 46,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/h-upmann-magnum-46-143mm.jpg",
+    "slug": "h-upmann-magnum-46-143mm"
+  },
+  {
+    "id": "h-upmann-magnum-46-143mm-1",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "MAGNUM 46",
+    "nameZh": "MAGNUM 46",
+    "specs": {
+      "length": "143mm",
+      "ringGauge": 46,
+      "packaging": ""
+    },
+    "priceHkd": 10000,
+    "priceDisplay": "10000",
+    "inStock": true,
+    "image": "/products/h-upmann-magnum-46-143mm-1.jpg",
+    "slug": "h-upmann-magnum-46-143mm-1"
+  },
+  {
+    "id": "h-upmann-magnum-50-159mm",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "MAGNUM 50",
+    "nameZh": "MAGNUM 50",
+    "specs": {
+      "length": "159mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 5800,
+    "priceDisplay": "5800",
+    "inStock": true,
+    "image": "/products/h-upmann-magnum-50-159mm.jpg",
+    "slug": "h-upmann-magnum-50-159mm"
+  },
+  {
+    "id": "h-upmann-magnum-50-159mm-1",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "MAGNUM 50",
+    "nameZh": "MAGNUM 50",
+    "specs": {
+      "length": "159mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 7600,
+    "priceDisplay": "7600",
+    "inStock": true,
+    "image": "/products/h-upmann-magnum-50-159mm-1.png",
+    "slug": "h-upmann-magnum-50-159mm-1"
+  },
+  {
+    "id": "h-upmann-a-140mm",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "A",
+    "nameZh": "优民鉴赏家ACONNOSSIEUR A",
+    "specs": {
+      "length": "140mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 9000,
+    "priceDisplay": "9000",
+    "inStock": true,
+    "image": "/products/h-upmann-a-140mm.jpg",
+    "slug": "h-upmann-a-140mm"
+  },
+  {
+    "id": "h-upmann-connossieur-b-150mm",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "CONNOSSIEUR B",
+    "nameZh": "CONNOSSIEUR B",
+    "specs": {
+      "length": "150mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/h-upmann-connossieur-b-150mm.jpg",
+    "slug": "h-upmann-connossieur-b-150mm"
+  },
+  {
+    "id": "h-upmann-connoisseur-no-1-127mm",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "CONNOISSEUR NO.1",
+    "nameZh": "CONNOISSEUR NO.1",
+    "specs": {
+      "length": "127mm",
+      "ringGauge": 48,
+      "packaging": ""
+    },
+    "priceHkd": 7600,
+    "priceDisplay": "7600",
+    "inStock": true,
+    "image": "/products/h-upmann-connoisseur-no-1-127mm.jpg",
+    "slug": "h-upmann-connoisseur-no-1-127mm"
+  },
+  {
+    "id": "h-upmann-connoisseur-no-2-134mm",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "CONNOISSEUR NO.2",
+    "nameZh": "CONNOISSEUR NO.2",
+    "specs": {
+      "length": "134mm",
+      "ringGauge": 51,
+      "packaging": ""
+    },
+    "priceHkd": 8400,
+    "priceDisplay": "8400",
+    "inStock": true,
+    "image": "/products/h-upmann-connoisseur-no-2-134mm.png",
+    "slug": "h-upmann-connoisseur-no-2-134mm"
+  },
+  {
+    "id": "h-upmann-2018-25-120mm",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "优民 2018 限量",
+    "nameZh": "优民2018限量",
+    "specs": {
+      "length": "120mm",
+      "ringGauge": 54,
+      "packaging": "25支裝"
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/h-upmann-2018-25-120mm.jpg",
+    "slug": "h-upmann-2018-25-120mm"
+  },
+  {
+    "id": "h-upmann-25-140mm",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "优民雄偉",
+    "nameZh": "优民雄偉",
+    "specs": {
+      "length": "140mm",
+      "ringGauge": 40,
+      "packaging": "25支裝"
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/h-upmann-25-140mm.jpg",
+    "slug": "h-upmann-25-140mm"
+  },
+  {
+    "id": "h-upmann-25-129mm",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "优民特许",
+    "nameZh": "优民特许",
+    "specs": {
+      "length": "129mm",
+      "ringGauge": 42,
+      "packaging": "25支裝"
+    },
+    "priceHkd": 3800,
+    "priceDisplay": "3800",
+    "inStock": true,
+    "image": "/products/h-upmann-25-129mm.jpg",
+    "slug": "h-upmann-25-129mm"
+  },
+  {
+    "id": "h-upmann-magnum-54-120mm",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "MAGNUM 54",
+    "nameZh": "MAGNUM 54",
+    "specs": {
+      "length": "120mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 10000,
+    "priceDisplay": "10000",
+    "inStock": true,
+    "image": "/products/h-upmann-magnum-54-120mm.jpg",
+    "slug": "h-upmann-magnum-54-120mm"
+  },
+  {
+    "id": "h-upmann-52-148mm",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "优民瑪瑙 52 虎年限量版",
+    "nameZh": "优民瑪瑙52虎年限量版",
+    "specs": {
+      "length": "148mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 34000,
+    "priceDisplay": "34000",
+    "inStock": true,
+    "image": "/products/h-upmann-52-148mm.png",
+    "slug": "h-upmann-52-148mm"
+  },
+  {
+    "id": "h-upmann-25-134mm",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "优民玻璃瓶",
+    "nameZh": "优民玻璃瓶",
+    "specs": {
+      "length": "134mm",
+      "ringGauge": 42,
+      "packaging": "25支裝"
+    },
+    "priceHkd": 14000,
+    "priceDisplay": "14000",
+    "inStock": true,
+    "image": "/products/h-upmann-25-134mm.jpg",
+    "slug": "h-upmann-25-134mm"
+  },
+  {
+    "id": "h-upmann-56-150mm",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "优民陶瓷瓶玛瑙 56",
+    "nameZh": "优民陶瓷瓶玛瑙56",
+    "specs": {
+      "length": "150mm",
+      "ringGauge": 56,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/h-upmann-56-150mm.jpg",
+    "slug": "h-upmann-56-150mm"
+  },
+  {
+    "id": "h-upmann-royal-robusto-10-s-127mm",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "ROYAL ROBUSTO 10'S",
+    "nameZh": "优民陈年2016",
+    "specs": {
+      "length": "127mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 18000,
+    "priceDisplay": "18000",
+    "inStock": true,
+    "image": "/products/h-upmann-royal-robusto-10-s-127mm.jpg",
+    "slug": "h-upmann-royal-robusto-10-s-127mm"
+  },
+  {
+    "id": "h-upmann-half-corona",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "HALF CORONA",
+    "nameZh": "HALF CORONA",
+    "specs": {
+      "length": "",
+      "ringGauge": null,
+      "packaging": ""
+    },
+    "priceHkd": 3600,
+    "priceDisplay": "3600",
+    "inStock": true,
+    "image": "/products/h-upmann-half-corona.jpg",
+    "slug": "h-upmann-half-corona"
+  },
+  {
+    "id": "h-upmann-half-corona-1",
+    "brandId": "h-upmann",
+    "brandName": "H.UPANN",
+    "brandNameZh": "優民",
+    "name": "HALF CORONA",
+    "nameZh": "HALF CORONA",
+    "specs": {
+      "length": "",
+      "ringGauge": null,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/h-upmann-half-corona-1.jpg",
+    "slug": "h-upmann-half-corona-1"
+  },
+  {
+    "id": "hoyo-150mm",
+    "brandId": "hoyo",
+    "brandName": "HOYO DE MONTERREY",
+    "brandNameZh": "好友",
+    "name": "好友塞科河畔筒",
+    "nameZh": "好友塞科河畔筒",
+    "specs": {
+      "length": "150mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 7400,
+    "priceDisplay": "7400",
+    "inStock": true,
+    "image": "/products/hoyo-150mm.jpg",
+    "slug": "hoyo-150mm"
+  },
+  {
+    "id": "hoyo-epicure-no-1",
+    "brandId": "hoyo",
+    "brandName": "HOYO DE MONTERREY",
+    "brandNameZh": "好友",
+    "name": "EPICURE NO.1",
+    "nameZh": "EPICURE NO.1",
+    "specs": {
+      "length": "",
+      "ringGauge": null,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/hoyo-epicure-no-1.png",
+    "slug": "hoyo-epicure-no-1"
+  },
+  {
+    "id": "hoyo-129mm",
+    "brandId": "hoyo",
+    "brandName": "HOYO DE MONTERREY",
+    "brandNameZh": "好友",
+    "name": "好友加冕筒",
+    "nameZh": "好友加冕筒",
+    "specs": {
+      "length": "129mm",
+      "ringGauge": 42,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/hoyo-129mm.jpg",
+    "slug": "hoyo-129mm"
+  },
+  {
+    "id": "hoyo-125mm",
+    "brandId": "hoyo",
+    "brandName": "HOYO DE MONTERREY",
+    "brandNameZh": "好友",
+    "name": "好友小魚雷保濕盒",
+    "nameZh": "好友小魚雷保濕盒",
+    "specs": {
+      "length": "125mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/hoyo-125mm.jpg",
+    "slug": "hoyo-125mm"
+  },
+  {
+    "id": "hoyo-double-coronas-194mm",
+    "brandId": "hoyo",
+    "brandName": "HOYO DE MONTERREY",
+    "brandNameZh": "好友",
+    "name": "DOUBLE CORONAS",
+    "nameZh": "好友雙皇冠DOUBLE CORONAS",
+    "specs": {
+      "length": "194mm",
+      "ringGauge": 49,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/hoyo-double-coronas-194mm.jpg",
+    "slug": "hoyo-double-coronas-194mm"
+  },
+  {
+    "id": "hoyo-epicure-no-2-124mm",
+    "brandId": "hoyo",
+    "brandName": "HOYO DE MONTERREY",
+    "brandNameZh": "好友",
+    "name": "EPICURE NO.2",
+    "nameZh": "EPICURE NO.2",
+    "specs": {
+      "length": "124mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 8800,
+    "priceDisplay": "8800",
+    "inStock": true,
+    "image": "/products/hoyo-epicure-no-2-124mm.jpg",
+    "slug": "hoyo-epicure-no-2-124mm"
+  },
+  {
+    "id": "hoyo-de-hoyo-du-maire-100mm",
+    "brandId": "hoyo",
+    "brandName": "HOYO DE MONTERREY",
+    "brandNameZh": "好友",
+    "name": "DE HOYO DU MAIRE",
+    "nameZh": "DE HOYO DU MAIRE",
+    "specs": {
+      "length": "100mm",
+      "ringGauge": 30,
+      "packaging": ""
+    },
+    "priceHkd": 3000,
+    "priceDisplay": "3000",
+    "inStock": true,
+    "image": "/products/hoyo-de-hoyo-du-maire-100mm.jpg",
+    "slug": "hoyo-de-hoyo-du-maire-100mm"
+  },
+  {
+    "id": "hoyo-18-167mm",
+    "brandId": "hoyo",
+    "brandName": "HOYO DE MONTERREY",
+    "brandNameZh": "好友",
+    "name": "好友牛年限量版",
+    "nameZh": "好友牛年限量版",
+    "specs": {
+      "length": "167mm",
+      "ringGauge": 48,
+      "packaging": "18支裝"
+    },
+    "priceHkd": 36000,
+    "priceDisplay": "36000",
+    "inStock": true,
+    "image": "/products/hoyo-18-167mm.jpg",
+    "slug": "hoyo-18-167mm"
+  },
+  {
+    "id": "hoyo-pcc-24mm",
+    "brandId": "hoyo",
+    "brandName": "HOYO DE MONTERREY",
+    "brandNameZh": "好友",
+    "name": "(PCC)",
+    "nameZh": "好友逍遙貴族2号",
+    "specs": {
+      "length": "24mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/hoyo-pcc-24mm.jpg",
+    "slug": "hoyo-pcc-24mm"
+  },
+  {
+    "id": "hoyo-petit-robusto-101mm",
+    "brandId": "hoyo",
+    "brandName": "HOYO DE MONTERREY",
+    "brandNameZh": "好友",
+    "name": "PETIT ROBUSTO",
+    "nameZh": "PETIT ROBUSTO",
+    "specs": {
+      "length": "101mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 8000,
+    "priceDisplay": "8000",
+    "inStock": true,
+    "image": "/products/hoyo-petit-robusto-101mm.jpg",
+    "slug": "hoyo-petit-robusto-101mm"
+  },
+  {
+    "id": "hoyo-le-hoyo-de-san-juan-150mm",
+    "brandId": "hoyo",
+    "brandName": "HOYO DE MONTERREY",
+    "brandNameZh": "好友",
+    "name": "LE HOYO DE SAN JUAN",
+    "nameZh": "LE HOYO DE SAN JUAN",
+    "specs": {
+      "length": "150mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 12400,
+    "priceDisplay": "12400",
+    "inStock": true,
+    "image": "/products/hoyo-le-hoyo-de-san-juan-150mm.jpg",
+    "slug": "hoyo-le-hoyo-de-san-juan-150mm"
+  },
+  {
+    "id": "hoyo-le-hoyo-de-rio-seco-140mm",
+    "brandId": "hoyo",
+    "brandName": "HOYO DE MONTERREY",
+    "brandNameZh": "好友",
+    "name": "LE HOYO DE RIO SECO",
+    "nameZh": "LE HOYO DE RIO SECO",
+    "specs": {
+      "length": "140mm",
+      "ringGauge": 56,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/hoyo-le-hoyo-de-rio-seco-140mm.jpg",
+    "slug": "hoyo-le-hoyo-de-rio-seco-140mm"
+  },
+  {
+    "id": "hoyo-4800hkd-141mm",
+    "brandId": "hoyo",
+    "brandName": "HOYO DE MONTERREY",
+    "brandNameZh": "好友",
+    "name": "4800HKD",
+    "nameZh": "52盒裝支數: 10",
+    "specs": {
+      "length": "141mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/hoyo-4800hkd-141mm.png",
+    "slug": "hoyo-4800hkd-141mm"
+  },
+  {
+    "id": "hoyo-elegantes",
+    "brandId": "hoyo",
+    "brandName": "HOYO DE MONTERREY",
+    "brandNameZh": "好友",
+    "name": "ELEGANTES",
+    "nameZh": "ELEGANTES",
+    "specs": {
+      "length": "",
+      "ringGauge": null,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/hoyo-elegantes.png",
+    "slug": "hoyo-elegantes"
+  },
+  {
+    "id": "hoyo-epicure-especial-141mm",
+    "brandId": "hoyo",
+    "brandName": "HOYO DE MONTERREY",
+    "brandNameZh": "好友",
+    "name": "EPICURE ESPECIAL",
+    "nameZh": "EPICURE ESPECIAL",
+    "specs": {
+      "length": "141mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 4400,
+    "priceDisplay": "4400",
+    "inStock": true,
+    "image": "/products/hoyo-epicure-especial-141mm.jpg",
+    "slug": "hoyo-epicure-especial-141mm"
+  },
+  {
+    "id": "montecristo-petit-edmundo-110mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "PETIT EDMUNDO",
+    "nameZh": "蒙特小愛蒙多PETIT EDMUNDO",
+    "specs": {
+      "length": "110mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 9000,
+    "priceDisplay": "9000",
+    "inStock": true,
+    "image": "/products/montecristo-petit-edmundo-110mm.jpg",
+    "slug": "montecristo-petit-edmundo-110mm"
+  },
+  {
+    "id": "montecristo-double-edmundo-154mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "DOUBLE EDMUNDO",
+    "nameZh": "DOUBLE EDMUNDO",
+    "specs": {
+      "length": "154mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/montecristo-double-edmundo-154mm.jpg",
+    "slug": "montecristo-double-edmundo-154mm"
+  },
+  {
+    "id": "montecristo-153mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "馬爾特斯",
+    "nameZh": "馬爾特斯",
+    "specs": {
+      "length": "153mm",
+      "ringGauge": 53,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/montecristo-153mm.jpg",
+    "slug": "montecristo-153mm"
+  },
+  {
+    "id": "montecristo-165mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "蒙特傳說",
+    "nameZh": "蒙特傳說",
+    "specs": {
+      "length": "165mm",
+      "ringGauge": 55,
+      "packaging": ""
+    },
+    "priceHkd": 32000,
+    "priceDisplay": "32000",
+    "inStock": true,
+    "image": "/products/montecristo-165mm.jpg",
+    "slug": "montecristo-165mm"
+  },
+  {
+    "id": "montecristo-2019-20-130mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "蒙特 2019 限量",
+    "nameZh": "蒙特2019限量",
+    "specs": {
+      "length": "130mm",
+      "ringGauge": null,
+      "packaging": "20支裝"
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/montecristo-2019-20-130mm.jpg",
+    "slug": "montecristo-2019-20-130mm"
+  },
+  {
+    "id": "montecristo-25-178mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "蒙特陈年丘吉尔",
+    "nameZh": "蒙特陈年丘吉尔",
+    "specs": {
+      "length": "178mm",
+      "ringGauge": 47,
+      "packaging": "25支裝"
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/montecristo-25-178mm.jpg",
+    "slug": "montecristo-25-178mm"
+  },
+  {
+    "id": "montecristo-25-90mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "蒙特小罗伯图筒",
+    "nameZh": "蒙特小罗伯图筒",
+    "specs": {
+      "length": "90mm",
+      "ringGauge": 44,
+      "packaging": "25支裝"
+    },
+    "priceHkd": 4800,
+    "priceDisplay": "4800",
+    "inStock": true,
+    "image": "/products/montecristo-25-90mm.jpg",
+    "slug": "montecristo-25-90mm"
+  },
+  {
+    "id": "montecristo-20-130mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "蒙特大仲马",
+    "nameZh": "蒙特大仲马",
+    "specs": {
+      "length": "130mm",
+      "ringGauge": 49,
+      "packaging": "20支裝"
+    },
+    "priceHkd": 20000,
+    "priceDisplay": "20000",
+    "inStock": true,
+    "image": "/products/montecristo-20-130mm.jpg",
+    "slug": "montecristo-20-130mm"
+  },
+  {
+    "id": "montecristo-no-3-142mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "NO. 3",
+    "nameZh": "蒙特3号",
+    "specs": {
+      "length": "142mm",
+      "ringGauge": 42,
+      "packaging": ""
+    },
+    "priceHkd": 6400,
+    "priceDisplay": "6400",
+    "inStock": true,
+    "image": "/products/montecristo-no-3-142mm.jpg",
+    "slug": "montecristo-no-3-142mm"
+  },
+  {
+    "id": "montecristo-no-4-129mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "NO. 4",
+    "nameZh": "NO. 4",
+    "specs": {
+      "length": "129mm",
+      "ringGauge": 40,
+      "packaging": ""
+    },
+    "priceHkd": 6000,
+    "priceDisplay": "6000",
+    "inStock": true,
+    "image": "/products/montecristo-no-4-129mm.jpg",
+    "slug": "montecristo-no-4-129mm"
+  },
+  {
+    "id": "montecristo-no-5-102mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "NO. 5",
+    "nameZh": "NO. 5",
+    "specs": {
+      "length": "102mm",
+      "ringGauge": 40,
+      "packaging": ""
+    },
+    "priceHkd": 4000,
+    "priceDisplay": "4000",
+    "inStock": true,
+    "image": "/products/montecristo-no-5-102mm.jpg",
+    "slug": "montecristo-no-5-102mm"
+  },
+  {
+    "id": "montecristo-edmundo-135mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "EDMUNDO",
+    "nameZh": "EDMUNDO",
+    "specs": {
+      "length": "135mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 11400,
+    "priceDisplay": "11400",
+    "inStock": true,
+    "image": "/products/montecristo-edmundo-135mm.jpg",
+    "slug": "montecristo-edmundo-135mm"
+  },
+  {
+    "id": "montecristo-junior-112mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "JUNIOR",
+    "nameZh": "蒙特少年JUNIOR",
+    "specs": {
+      "length": "112mm",
+      "ringGauge": 38,
+      "packaging": ""
+    },
+    "priceHkd": 4000,
+    "priceDisplay": "4000",
+    "inStock": true,
+    "image": "/products/montecristo-junior-112mm.jpg",
+    "slug": "montecristo-junior-112mm"
+  },
+  {
+    "id": "montecristo-regata-135mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "REGATA",
+    "nameZh": "REGATA",
+    "specs": {
+      "length": "135mm",
+      "ringGauge": 46,
+      "packaging": ""
+    },
+    "priceHkd": 8000,
+    "priceDisplay": "8000",
+    "inStock": true,
+    "image": "/products/montecristo-regata-135mm.jpg",
+    "slug": "montecristo-regata-135mm"
+  },
+  {
+    "id": "montecristo-eagle-150mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "EAGLE",
+    "nameZh": "EAGLE",
+    "specs": {
+      "length": "150mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 14000,
+    "priceDisplay": "14000",
+    "inStock": true,
+    "image": "/products/montecristo-eagle-150mm.jpg",
+    "slug": "montecristo-eagle-150mm"
+  },
+  {
+    "id": "montecristo-open-master-124mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "OPEN MASTER",
+    "nameZh": "OPEN MASTER",
+    "specs": {
+      "length": "124mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 11000,
+    "priceDisplay": "11000",
+    "inStock": true,
+    "image": "/products/montecristo-open-master-124mm.jpg",
+    "slug": "montecristo-open-master-124mm"
+  },
+  {
+    "id": "montecristo-no-1-165mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "NO. 1",
+    "nameZh": "蒙特1号",
+    "specs": {
+      "length": "165mm",
+      "ringGauge": 42,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/montecristo-no-1-165mm.jpg",
+    "slug": "montecristo-no-1-165mm"
+  },
+  {
+    "id": "montecristo-no-2-156mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "NO. 2",
+    "nameZh": "NO. 2",
+    "specs": {
+      "length": "156mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/montecristo-no-2-156mm.jpg",
+    "slug": "montecristo-no-2-156mm"
+  },
+  {
+    "id": "montecristo-no-2-156mm-1",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "NO. 2",
+    "nameZh": "NO. 2",
+    "specs": {
+      "length": "156mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 12000,
+    "priceDisplay": "12000",
+    "inStock": true,
+    "image": "/products/montecristo-no-2-156mm-1.jpg",
+    "slug": "montecristo-no-2-156mm-1"
+  },
+  {
+    "id": "montecristo-no-2-120mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "NO. 2",
+    "nameZh": "NO. 2",
+    "specs": {
+      "length": "120mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/montecristo-no-2-120mm.jpg",
+    "slug": "montecristo-no-2-120mm"
+  },
+  {
+    "id": "montecristo-82mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "蒙特短号兔年限量",
+    "nameZh": "蒙特短号兔年限量",
+    "specs": {
+      "length": "82mm",
+      "ringGauge": 27,
+      "packaging": ""
+    },
+    "priceHkd": 2800,
+    "priceDisplay": "2800",
+    "inStock": true,
+    "image": "/products/montecristo-82mm.jpg",
+    "slug": "montecristo-82mm"
+  },
+  {
+    "id": "montecristo-a-235mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "A",
+    "nameZh": "A",
+    "specs": {
+      "length": "235mm",
+      "ringGauge": 47,
+      "packaging": ""
+    },
+    "priceHkd": 10400,
+    "priceDisplay": "10400",
+    "inStock": true,
+    "image": "/products/montecristo-a-235mm.jpg",
+    "slug": "montecristo-a-235mm"
+  },
+  {
+    "id": "montecristo-90mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "蒙特半皇冠",
+    "nameZh": "蒙特半皇冠",
+    "specs": {
+      "length": "90mm",
+      "ringGauge": 44,
+      "packaging": ""
+    },
+    "priceHkd": 5000,
+    "priceDisplay": "5000",
+    "inStock": true,
+    "image": "/products/montecristo-90mm.jpg",
+    "slug": "montecristo-90mm"
+  },
+  {
+    "id": "montecristo-115mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "蒙特宝石",
+    "nameZh": "蒙特宝石",
+    "specs": {
+      "length": "115mm",
+      "ringGauge": 26,
+      "packaging": ""
+    },
+    "priceHkd": 3000,
+    "priceDisplay": "3000",
+    "inStock": true,
+    "image": "/products/montecristo-115mm.jpg",
+    "slug": "montecristo-115mm"
+  },
+  {
+    "id": "montecristo-125",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "蒙特 宽爱蒙多",
+    "nameZh": "蒙特宽爱蒙多",
+    "specs": {
+      "length": "125",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 5600,
+    "priceDisplay": "5600",
+    "inStock": true,
+    "image": "/products/montecristo-125.png",
+    "slug": "montecristo-125"
+  },
+  {
+    "id": "montecristo-club-97mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "CLUB",
+    "nameZh": "CLUB",
+    "specs": {
+      "length": "97mm",
+      "ringGauge": 22,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/montecristo-club-97mm.png",
+    "slug": "montecristo-club-97mm"
+  },
+  {
+    "id": "montecristo-media-corona-90mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "MEDIA CORONA",
+    "nameZh": "MEDIA CORONA",
+    "specs": {
+      "length": "90mm",
+      "ringGauge": 44,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/montecristo-media-corona-90mm.jpg",
+    "slug": "montecristo-media-corona-90mm"
+  },
+  {
+    "id": "montecristo-short-83mm",
+    "brandId": "montecristo",
+    "brandName": "MONTECRISTO",
+    "brandNameZh": "蒙特",
+    "name": "SHORT",
+    "nameZh": "SHORT",
+    "specs": {
+      "length": "83mm",
+      "ringGauge": 26,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/montecristo-short-83mm.jpg",
+    "slug": "montecristo-short-83mm"
+  },
+  {
+    "id": "partagas-p2-156mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "P2",
+    "nameZh": "帕特加P2SERIE P NO.2",
+    "specs": {
+      "length": "156mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 10000,
+    "priceDisplay": "10000",
+    "inStock": true,
+    "image": "/products/partagas-p2-156mm.jpg",
+    "slug": "partagas-p2-156mm"
+  },
+  {
+    "id": "partagas-25-125mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "帕特加哈瓦那",
+    "nameZh": "帕特加哈瓦那",
+    "specs": {
+      "length": "125mm",
+      "ringGauge": 39,
+      "packaging": "25支裝"
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/partagas-25-125mm.jpg",
+    "slug": "partagas-25-125mm"
+  },
+  {
+    "id": "partagas-25-129mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "帕特加妙丽",
+    "nameZh": "帕特加妙丽",
+    "specs": {
+      "length": "129mm",
+      "ringGauge": 42,
+      "packaging": "25支裝"
+    },
+    "priceHkd": 3600,
+    "priceDisplay": "3600",
+    "inStock": true,
+    "image": "/products/partagas-25-129mm.jpg",
+    "slug": "partagas-25-129mm"
+  },
+  {
+    "id": "partagas-10-129mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "帕特加妙丽",
+    "nameZh": "帕特加妙丽",
+    "specs": {
+      "length": "129mm",
+      "ringGauge": 42,
+      "packaging": "10支裝"
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/partagas-10-129mm.jpg",
+    "slug": "partagas-10-129mm"
+  },
+  {
+    "id": "partagas-lusitanias-194mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "LUSITANIAS",
+    "nameZh": "帕特加巨皇冠LUSITANIAS",
+    "specs": {
+      "length": "194mm",
+      "ringGauge": 49,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/partagas-lusitanias-194mm.jpg",
+    "slug": "partagas-lusitanias-194mm"
+  },
+  {
+    "id": "partagas-serie-d-no-4-124mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "SERIE D NO.4",
+    "nameZh": "SERIE D NO.4",
+    "specs": {
+      "length": "124mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 8800,
+    "priceDisplay": "8800",
+    "inStock": true,
+    "image": "/products/partagas-serie-d-no-4-124mm.jpg",
+    "slug": "partagas-serie-d-no-4-124mm"
+  },
+  {
+    "id": "partagas-lusitanias-194mm-1",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "LUSITANIAS",
+    "nameZh": "LUSITANIAS",
+    "specs": {
+      "length": "194mm",
+      "ringGauge": 49,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/partagas-lusitanias-194mm-1.jpg",
+    "slug": "partagas-lusitanias-194mm-1"
+  },
+  {
+    "id": "partagas-25-145mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "號",
+    "nameZh": "號",
+    "specs": {
+      "length": "145mm",
+      "ringGauge": 50,
+      "packaging": "25支裝"
+    },
+    "priceHkd": 20000,
+    "priceDisplay": "20000",
+    "inStock": true,
+    "image": "/products/partagas-25-145mm.jpg",
+    "slug": "partagas-25-145mm"
+  },
+  {
+    "id": "partagas-d5-110mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "D5",
+    "nameZh": "帕特加D5SERIE D NO.5",
+    "specs": {
+      "length": "110mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 6600,
+    "priceDisplay": "6600",
+    "inStock": true,
+    "image": "/products/partagas-d5-110mm.jpg",
+    "slug": "partagas-d5-110mm"
+  },
+  {
+    "id": "partagas-shorts-110mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "SHORTS",
+    "nameZh": "SHORTS",
+    "specs": {
+      "length": "110mm",
+      "ringGauge": 42,
+      "packaging": ""
+    },
+    "priceHkd": 10000,
+    "priceDisplay": "10000",
+    "inStock": true,
+    "image": "/products/partagas-shorts-110mm.png",
+    "slug": "partagas-shorts-110mm"
+  },
+  {
+    "id": "partagas-super-partagas-140mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "SUPER PARTAGAS",
+    "nameZh": "SUPER PARTAGAS",
+    "specs": {
+      "length": "140mm",
+      "ringGauge": 40,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/partagas-super-partagas-140mm.jpg",
+    "slug": "partagas-super-partagas-140mm"
+  },
+  {
+    "id": "partagas-serie-d-no-6-90mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "SERIE D NO.6",
+    "nameZh": "SERIE D NO.6",
+    "specs": {
+      "length": "90mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 5600,
+    "priceDisplay": "5600",
+    "inStock": true,
+    "image": "/products/partagas-serie-d-no-6-90mm.jpg",
+    "slug": "partagas-serie-d-no-6-90mm"
+  },
+  {
+    "id": "partagas-e2-140mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "E2",
+    "nameZh": "帕特加E2",
+    "specs": {
+      "length": "140mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 3600,
+    "priceDisplay": "3600",
+    "inStock": true,
+    "image": "/products/partagas-e2-140mm.jpg",
+    "slug": "partagas-e2-140mm"
+  },
+  {
+    "id": "partagas-898-170mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "帕特加 898",
+    "nameZh": "帕特加898",
+    "specs": {
+      "length": "170mm",
+      "ringGauge": 43,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/partagas-898-170mm.jpg",
+    "slug": "partagas-898-170mm"
+  },
+  {
+    "id": "partagas-157mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "限量",
+    "nameZh": "限量",
+    "specs": {
+      "length": "157mm",
+      "ringGauge": 48,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/partagas-157mm.jpg",
+    "slug": "partagas-157mm"
+  },
+  {
+    "id": "partagas-146mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "帕特加盘蛇",
+    "nameZh": "帕特加盘蛇",
+    "specs": {
+      "length": "146mm",
+      "ringGauge": 39,
+      "packaging": ""
+    },
+    "priceHkd": 4000,
+    "priceDisplay": "4000",
+    "inStock": true,
+    "image": "/products/partagas-146mm.jpg",
+    "slug": "partagas-146mm"
+  },
+  {
+    "id": "partagas-quai-d-orsay-135mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "QUAI D'ORSAY",
+    "nameZh": "QUAI D'ORSAY多尔塞多",
+    "specs": {
+      "length": "135mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/partagas-quai-d-orsay-135mm.png",
+    "slug": "partagas-quai-d-orsay-135mm"
+  },
+  {
+    "id": "partagas-142mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "长皇冠",
+    "nameZh": "长皇冠",
+    "specs": {
+      "length": "142mm",
+      "ringGauge": 42,
+      "packaging": ""
+    },
+    "priceHkd": 8000,
+    "priceDisplay": "8000",
+    "inStock": true,
+    "image": "/products/partagas-142mm.jpg",
+    "slug": "partagas-142mm"
+  },
+  {
+    "id": "partagas-no-50-110mm",
+    "brandId": "partagas",
+    "brandName": "PARTAGAS",
+    "brandNameZh": "帕特加斯",
+    "name": "No. 50",
+    "nameZh": "No. 50",
+    "specs": {
+      "length": "110mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 8600,
+    "priceDisplay": "8600",
+    "inStock": true,
+    "image": "/products/partagas-no-50-110mm.jpg",
+    "slug": "partagas-no-50-110mm"
+  },
+  {
+    "id": "juan-lopez-seleccion-no-1-143mm",
+    "brandId": "juan-lopez",
+    "brandName": "JUAN LOPEZ",
+    "brandNameZh": "胡安洛佩斯",
+    "name": "SELECCION NO.1",
+    "nameZh": ": 25支裝客戶",
+    "specs": {
+      "length": "143mm",
+      "ringGauge": 46,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/juan-lopez-seleccion-no-1-143mm.png",
+    "slug": "juan-lopez-seleccion-no-1-143mm"
+  },
+  {
+    "id": "juan-lopez-punch",
+    "brandId": "juan-lopez",
+    "brandName": "JUAN LOPEZ",
+    "brandNameZh": "胡安洛佩斯",
+    "name": "PUNCH",
+    "nameZh": "PUNCH潘趣潘趣",
+    "specs": {
+      "length": "",
+      "ringGauge": null,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/juan-lopez-punch.jpg",
+    "slug": "juan-lopez-punch"
+  },
+  {
+    "id": "juan-lopez-punch-143mm",
+    "brandId": "juan-lopez",
+    "brandName": "JUAN LOPEZ",
+    "brandNameZh": "胡安洛佩斯",
+    "name": "PUNCH",
+    "nameZh": "PUNCH",
+    "specs": {
+      "length": "143mm",
+      "ringGauge": 46,
+      "packaging": ""
+    },
+    "priceHkd": 3800,
+    "priceDisplay": "3800",
+    "inStock": true,
+    "image": "/products/juan-lopez-punch-143mm.jpg",
+    "slug": "juan-lopez-punch-143mm"
+  },
+  {
+    "id": "ramon-allones-40-165mm",
+    "brandId": "ramon-allones",
+    "brandName": "RAMON ALLONES",
+    "brandNameZh": "雷蒙阿隆尼",
+    "name": "雷蒙阿龙 40 周年限量版",
+    "nameZh": "雷蒙阿龙40周年限量版",
+    "specs": {
+      "length": "165mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 26000,
+    "priceDisplay": "26000",
+    "inStock": true,
+    "image": "/products/ramon-allones-40-165mm.jpg",
+    "slug": "ramon-allones-40-165mm"
+  },
+  {
+    "id": "romeo-churchills-178mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "CHURCHILLS",
+    "nameZh": "罗密欧長",
+    "specs": {
+      "length": "178mm",
+      "ringGauge": 47,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/romeo-churchills-178mm.jpg",
+    "slug": "romeo-churchills-178mm"
+  },
+  {
+    "id": "romeo-belicosos-140mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "BELICOSOS",
+    "nameZh": "BELICOSOS",
+    "specs": {
+      "length": "140mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 9400,
+    "priceDisplay": "9400",
+    "inStock": true,
+    "image": "/products/romeo-belicosos-140mm.jpg",
+    "slug": "romeo-belicosos-140mm"
+  },
+  {
+    "id": "romeo-109mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "欧普列图",
+    "nameZh": "欧普列图",
+    "specs": {
+      "length": "109mm",
+      "ringGauge": 27,
+      "packaging": ""
+    },
+    "priceHkd": 800,
+    "priceDisplay": "800",
+    "inStock": true,
+    "image": "/products/romeo-109mm.jpg",
+    "slug": "romeo-109mm"
+  },
+  {
+    "id": "romeo-178mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "丘吉尔筒",
+    "nameZh": "丘吉尔筒",
+    "specs": {
+      "length": "178mm",
+      "ringGauge": 47,
+      "packaging": ""
+    },
+    "priceHkd": 26000,
+    "priceDisplay": "26000",
+    "inStock": true,
+    "image": "/products/romeo-178mm.jpg",
+    "slug": "romeo-178mm"
+  },
+  {
+    "id": "romeo-short-churchills-124mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "SHORT CHURCHILLS",
+    "nameZh": "罗密欧短丘吉尔SHORT CHURCHILLS",
+    "specs": {
+      "length": "124mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/romeo-short-churchills-124mm.jpg",
+    "slug": "romeo-short-churchills-124mm"
+  },
+  {
+    "id": "romeo-short-churchills-124mm-1",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "SHORT CHURCHILLS",
+    "nameZh": "SHORT CHURCHILLS",
+    "specs": {
+      "length": "124mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 9400,
+    "priceDisplay": "9400",
+    "inStock": true,
+    "image": "/products/romeo-short-churchills-124mm-1.jpg",
+    "slug": "romeo-short-churchills-124mm-1"
+  },
+  {
+    "id": "romeo-wide-churchills-130mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "WIDE CHURCHILLS",
+    "nameZh": "WIDE CHURCHILLS",
+    "specs": {
+      "length": "130mm",
+      "ringGauge": 55,
+      "packaging": ""
+    },
+    "priceHkd": 5400,
+    "priceDisplay": "5400",
+    "inStock": true,
+    "image": "/products/romeo-wide-churchills-130mm.jpg",
+    "slug": "romeo-wide-churchills-130mm"
+  },
+  {
+    "id": "romeo-wide-churchills-130mm-1",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "WIDE CHURCHILLS",
+    "nameZh": "WIDE CHURCHILLS",
+    "specs": {
+      "length": "130mm",
+      "ringGauge": 55,
+      "packaging": ""
+    },
+    "priceHkd": 13400,
+    "priceDisplay": "13400",
+    "inStock": true,
+    "image": "/products/romeo-wide-churchills-130mm-1.jpg",
+    "slug": "romeo-wide-churchills-130mm-1"
+  },
+  {
+    "id": "romeo-25-117mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "罗密欧伦敦",
+    "nameZh": "罗密欧伦敦",
+    "specs": {
+      "length": "117mm",
+      "ringGauge": 40,
+      "packaging": "25支裝"
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/romeo-25-117mm.jpg",
+    "slug": "romeo-25-117mm"
+  },
+  {
+    "id": "romeo-2014-25-156mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "罗密欧鱼雷 2014",
+    "nameZh": "罗密欧鱼雷2014",
+    "specs": {
+      "length": "156mm",
+      "ringGauge": 52,
+      "packaging": "25支裝"
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/romeo-2014-25-156mm.jpg",
+    "slug": "romeo-2014-25-156mm"
+  },
+  {
+    "id": "romeo-8-155mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "密欧鼠年限量版",
+    "nameZh": "密欧鼠年限量版",
+    "specs": {
+      "length": "155mm",
+      "ringGauge": 22,
+      "packaging": "8支裝"
+    },
+    "priceHkd": 12000,
+    "priceDisplay": "12000",
+    "inStock": true,
+    "image": "/products/romeo-8-155mm.jpg",
+    "slug": "romeo-8-155mm"
+  },
+  {
+    "id": "romeo-20-130mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "罗密欧宽丘吉尔保湿盒",
+    "nameZh": "罗密欧宽丘吉尔保湿盒",
+    "specs": {
+      "length": "130mm",
+      "ringGauge": 55,
+      "packaging": "20支裝"
+    },
+    "priceHkd": 34000,
+    "priceDisplay": "34000",
+    "inStock": true,
+    "image": "/products/romeo-20-130mm.png",
+    "slug": "romeo-20-130mm"
+  },
+  {
+    "id": "romeo-romeo-no-1-140mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "ROMEO NO.1",
+    "nameZh": "罗密欧1号",
+    "specs": {
+      "length": "140mm",
+      "ringGauge": 40,
+      "packaging": ""
+    },
+    "priceHkd": 5000,
+    "priceDisplay": "5000",
+    "inStock": true,
+    "image": "/products/romeo-romeo-no-1-140mm.png",
+    "slug": "romeo-romeo-no-1-140mm"
+  },
+  {
+    "id": "romeo-romeo-no-2-129mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "ROMEO NO.2",
+    "nameZh": "ROMEO NO.2",
+    "specs": {
+      "length": "129mm",
+      "ringGauge": 42,
+      "packaging": ""
+    },
+    "priceHkd": 4400,
+    "priceDisplay": "4400",
+    "inStock": true,
+    "image": "/products/romeo-romeo-no-2-129mm.jpg",
+    "slug": "romeo-romeo-no-2-129mm"
+  },
+  {
+    "id": "romeo-romeo-no-3-117mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "ROMEO NO.3",
+    "nameZh": "ROMEO NO.3",
+    "specs": {
+      "length": "117mm",
+      "ringGauge": 40,
+      "packaging": ""
+    },
+    "priceHkd": 4400,
+    "priceDisplay": "4400",
+    "inStock": true,
+    "image": "/products/romeo-romeo-no-3-117mm.png",
+    "slug": "romeo-romeo-no-3-117mm"
+  },
+  {
+    "id": "romeo-short-churchills-129mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "SHORT CHURCHILLS",
+    "nameZh": "SHORT CHURCHILLS",
+    "specs": {
+      "length": "129mm",
+      "ringGauge": 42,
+      "packaging": ""
+    },
+    "priceHkd": 3400,
+    "priceDisplay": "3400",
+    "inStock": true,
+    "image": "/products/romeo-short-churchills-129mm.jpg",
+    "slug": "romeo-short-churchills-129mm"
+  },
+  {
+    "id": "romeo-petit-churchills-102mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "PETIT CHURCHILLS",
+    "nameZh": "罗密欧小丘吉尔PETIT CHURCHILLS",
+    "specs": {
+      "length": "102mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/romeo-petit-churchills-102mm.jpg",
+    "slug": "romeo-petit-churchills-102mm"
+  },
+  {
+    "id": "romeo-petit-royales-95mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "PETIT ROYALES",
+    "nameZh": "PETIT ROYALES",
+    "specs": {
+      "length": "95mm",
+      "ringGauge": 47,
+      "packaging": ""
+    },
+    "priceHkd": 4800,
+    "priceDisplay": "4800",
+    "inStock": true,
+    "image": "/products/romeo-petit-royales-95mm.jpg",
+    "slug": "romeo-petit-royales-95mm"
+  },
+  {
+    "id": "romeo-luxe-no-2-142mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "LUXE No.2",
+    "nameZh": "LUXE No.2",
+    "specs": {
+      "length": "142mm",
+      "ringGauge": 42,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/romeo-luxe-no-2-142mm.jpg",
+    "slug": "romeo-luxe-no-2-142mm"
+  },
+  {
+    "id": "romeo-luxe-no-3-129mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "LUXE No.3",
+    "nameZh": "LUXE No.3",
+    "specs": {
+      "length": "129mm",
+      "ringGauge": 42,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/romeo-luxe-no-3-129mm.jpg",
+    "slug": "romeo-luxe-no-3-129mm"
+  },
+  {
+    "id": "romeo-3-117mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "罗密欧 3 号",
+    "nameZh": "罗密欧3号",
+    "specs": {
+      "length": "117mm",
+      "ringGauge": 40,
+      "packaging": ""
+    },
+    "priceHkd": 1800,
+    "priceDisplay": "1800",
+    "inStock": true,
+    "image": "/products/romeo-3-117mm.jpg",
+    "slug": "romeo-3-117mm"
+  },
+  {
+    "id": "romeo-cazadores",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "CAZADORES",
+    "nameZh": "CAZADORES",
+    "specs": {
+      "length": "",
+      "ringGauge": null,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/romeo-cazadores.jpg",
+    "slug": "romeo-cazadores"
+  },
+  {
+    "id": "romeo-club",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "CLUB",
+    "nameZh": "CLUB",
+    "specs": {
+      "length": "",
+      "ringGauge": null,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/romeo-club.jpg",
+    "slug": "romeo-club"
+  },
+  {
+    "id": "romeo-178mm-1",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "羅密歐丘吉爾筒",
+    "nameZh": "羅密歐丘吉爾筒",
+    "specs": {
+      "length": "178mm",
+      "ringGauge": 47,
+      "packaging": ""
+    },
+    "priceHkd": 18800,
+    "priceDisplay": "18800",
+    "inStock": true,
+    "image": "/products/romeo-178mm-1.jpg",
+    "slug": "romeo-178mm-1"
+  },
+  {
+    "id": "romeo",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "羅密歐金線三套裝",
+    "nameZh": "羅密歐金線三套裝",
+    "specs": {
+      "length": "",
+      "ringGauge": 5620,
+      "packaging": ""
+    },
+    "priceHkd": 73400,
+    "priceDisplay": "73400",
+    "inStock": true,
+    "image": "/products/romeo.jpg",
+    "slug": "romeo"
+  },
+  {
+    "id": "romeo-117mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "罗密欧运动员",
+    "nameZh": "罗密欧运动员",
+    "specs": {
+      "length": "117mm",
+      "ringGauge": 35,
+      "packaging": ""
+    },
+    "priceHkd": 3600,
+    "priceDisplay": "3600",
+    "inStock": true,
+    "image": "/products/romeo-117mm.jpg",
+    "slug": "romeo-117mm"
+  },
+  {
+    "id": "romeo-pacificos-25-s-152mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "PACIFICOS 25'S –",
+    "nameZh": "聖路易斯雷伊亞太地區限定PACIFICOS 25'S –2009 (ASIA PACIFIC)",
+    "specs": {
+      "length": "152mm",
+      "ringGauge": 43,
+      "packaging": ""
+    },
+    "priceHkd": 2000,
+    "priceDisplay": "2000",
+    "inStock": true,
+    "image": "/products/romeo-pacificos-25-s-152mm.jpg",
+    "slug": "romeo-pacificos-25-s-152mm"
+  },
+  {
+    "id": "romeo-150mm",
+    "brandId": "romeo",
+    "brandName": "ROMEO Y JULIETA",
+    "brandNameZh": "羅密歐",
+    "name": "年限量",
+    "nameZh": "年限量",
+    "specs": {
+      "length": "150mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/romeo-150mm.jpg",
+    "slug": "romeo-150mm"
+  },
+  {
+    "id": "davidoff-152mm",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大衛杜夫陳年公牛",
+    "nameZh": "大衛杜夫陳年公牛",
+    "specs": {
+      "length": "152mm",
+      "ringGauge": 22,
+      "packaging": ""
+    },
+    "priceHkd": 3400,
+    "priceDisplay": "3400",
+    "inStock": true,
+    "image": "/products/davidoff-152mm.jpg",
+    "slug": "davidoff-152mm"
+  },
+  {
+    "id": "davidoff-133mm",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大衛杜夫陳年羅伯圖",
+    "nameZh": "大衛杜夫陳年羅伯圖",
+    "specs": {
+      "length": "133mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 3400,
+    "priceDisplay": "3400",
+    "inStock": true,
+    "image": "/products/davidoff-133mm.jpg",
+    "slug": "davidoff-133mm"
+  },
+  {
+    "id": "davidoff-143mm",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "號",
+    "nameZh": "號",
+    "specs": {
+      "length": "143mm",
+      "ringGauge": 43,
+      "packaging": ""
+    },
+    "priceHkd": 4800,
+    "priceDisplay": "4800",
+    "inStock": true,
+    "image": "/products/davidoff-143mm.jpg",
+    "slug": "davidoff-143mm"
+  },
+  {
+    "id": "davidoff-102mm",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫陈年短罗伯图",
+    "nameZh": "大卫杜夫陈年短罗伯图",
+    "specs": {
+      "length": "102mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 3200,
+    "priceDisplay": "3200",
+    "inStock": true,
+    "image": "/products/davidoff-102mm.jpg",
+    "slug": "davidoff-102mm"
+  },
+  {
+    "id": "davidoff-152mm-1",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大衛杜夫艾斯黑標大皇冠",
+    "nameZh": "大衛杜夫艾斯黑標大皇冠",
+    "specs": {
+      "length": "152mm",
+      "ringGauge": 46,
+      "packaging": ""
+    },
+    "priceHkd": 3200,
+    "priceDisplay": "3200",
+    "inStock": true,
+    "image": "/products/davidoff-152mm-1.jpg",
+    "slug": "davidoff-152mm-1"
+  },
+  {
+    "id": "davidoff-152mm-2",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "號",
+    "nameZh": "號",
+    "specs": {
+      "length": "152mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 4800,
+    "priceDisplay": "4800",
+    "inStock": true,
+    "image": "/products/davidoff-152mm-2.jpg",
+    "slug": "davidoff-152mm-2"
+  },
+  {
+    "id": "davidoff-2012-152mm",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫大师精选 2012",
+    "nameZh": "大卫杜夫大师精选2012",
+    "specs": {
+      "length": "152mm",
+      "ringGauge": 21,
+      "packaging": ""
+    },
+    "priceHkd": 4800,
+    "priceDisplay": "4800",
+    "inStock": true,
+    "image": "/products/davidoff-2012-152mm.jpg",
+    "slug": "davidoff-2012-152mm"
+  },
+  {
+    "id": "davidoff-127mm",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大衛杜夫格蘭完美",
+    "nameZh": "大衛杜夫格蘭完美",
+    "specs": {
+      "length": "127mm",
+      "ringGauge": 61,
+      "packaging": ""
+    },
+    "priceHkd": 3400,
+    "priceDisplay": "3400",
+    "inStock": true,
+    "image": "/products/davidoff-127mm.jpg",
+    "slug": "davidoff-127mm"
+  },
+  {
+    "id": "davidoff-152mm-3",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "號木筒",
+    "nameZh": "號木筒",
+    "specs": {
+      "length": "152mm",
+      "ringGauge": 38,
+      "packaging": ""
+    },
+    "priceHkd": 4800,
+    "priceDisplay": "4800",
+    "inStock": true,
+    "image": "/products/davidoff-152mm-3.jpg",
+    "slug": "davidoff-152mm-3"
+  },
+  {
+    "id": "davidoff-152mm-4",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫格兰公牛",
+    "nameZh": "大卫杜夫格兰公牛",
+    "specs": {
+      "length": "152mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 6400,
+    "priceDisplay": "6400",
+    "inStock": true,
+    "image": "/products/davidoff-152mm-4.png",
+    "slug": "davidoff-152mm-4"
+  },
+  {
+    "id": "davidoff-133mm-1",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫格兰罗伯图",
+    "nameZh": "大卫杜夫格兰罗伯图",
+    "specs": {
+      "length": "133mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 6000,
+    "priceDisplay": "6000",
+    "inStock": true,
+    "image": "/products/davidoff-133mm-1.jpg",
+    "slug": "davidoff-133mm-1"
+  },
+  {
+    "id": "davidoff-2-143mm",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大衛杜夫格蘭 2 號",
+    "nameZh": "大衛杜夫格蘭2號",
+    "specs": {
+      "length": "143mm",
+      "ringGauge": 43,
+      "packaging": ""
+    },
+    "priceHkd": 4800,
+    "priceDisplay": "4800",
+    "inStock": true,
+    "image": "/products/davidoff-2-143mm.jpg",
+    "slug": "davidoff-2-143mm"
+  },
+  {
+    "id": "davidoff-102mm-1",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "号",
+    "nameZh": "号",
+    "specs": {
+      "length": "102mm",
+      "ringGauge": 41,
+      "packaging": ""
+    },
+    "priceHkd": 3400,
+    "priceDisplay": "3400",
+    "inStock": true,
+    "image": "/products/davidoff-102mm-1.jpg",
+    "slug": "davidoff-102mm-1"
+  },
+  {
+    "id": "davidoff-114mm",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫千禧小皇冠",
+    "nameZh": "大卫杜夫千禧小皇冠",
+    "specs": {
+      "length": "114mm",
+      "ringGauge": 41,
+      "packaging": ""
+    },
+    "priceHkd": 4600,
+    "priceDisplay": "4600",
+    "inStock": true,
+    "image": "/products/davidoff-114mm.jpg",
+    "slug": "davidoff-114mm"
+  },
+  {
+    "id": "davidoff-152mm-5",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫千禧公牛",
+    "nameZh": "大卫杜夫千禧公牛",
+    "specs": {
+      "length": "152mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 4000,
+    "priceDisplay": "4000",
+    "inStock": true,
+    "image": "/products/davidoff-152mm-5.jpg",
+    "slug": "davidoff-152mm-5"
+  },
+  {
+    "id": "davidoff-2000-127mm",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大衛杜夫 2000 木筒",
+    "nameZh": "大衛杜夫2000木筒",
+    "specs": {
+      "length": "127mm",
+      "ringGauge": 43,
+      "packaging": ""
+    },
+    "priceHkd": 4400,
+    "priceDisplay": "4400",
+    "inStock": true,
+    "image": "/products/davidoff-2000-127mm.png",
+    "slug": "davidoff-2000-127mm"
+  },
+  {
+    "id": "davidoff-152mm-6",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "丘吉爾",
+    "nameZh": "丘吉爾",
+    "specs": {
+      "length": "152mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 6000,
+    "priceDisplay": "6000",
+    "inStock": true,
+    "image": "/products/davidoff-152mm-6.jpg",
+    "slug": "davidoff-152mm-6"
+  },
+  {
+    "id": "davidoff-152mm-7",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "豬年限量",
+    "nameZh": "豬年限量",
+    "specs": {
+      "length": "152mm",
+      "ringGauge": 22,
+      "packaging": ""
+    },
+    "priceHkd": 8000,
+    "priceDisplay": "8000",
+    "inStock": true,
+    "image": "/products/davidoff-152mm-7.jpg",
+    "slug": "davidoff-152mm-7"
+  },
+  {
+    "id": "davidoff-127mm-1",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "兔年限量",
+    "nameZh": "兔年限量",
+    "specs": {
+      "length": "127mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 8800,
+    "priceDisplay": "8800",
+    "inStock": true,
+    "image": "/products/davidoff-127mm-1.jpg",
+    "slug": "davidoff-127mm-1"
+  },
+  {
+    "id": "davidoff-127mm-2",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫黑夜温斯顿罗伯图",
+    "nameZh": "大卫杜夫黑夜温斯顿罗伯图",
+    "specs": {
+      "length": "127mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 4600,
+    "priceDisplay": "4600",
+    "inStock": true,
+    "image": "/products/davidoff-127mm-2.jpg",
+    "slug": "davidoff-127mm-2"
+  },
+  {
+    "id": "davidoff-152mm-8",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫签名公牛",
+    "nameZh": "大卫杜夫签名公牛",
+    "specs": {
+      "length": "152mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/davidoff-152mm-8.jpg",
+    "slug": "davidoff-152mm-8"
+  },
+  {
+    "id": "davidoff-178mm",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫黑夜温斯顿丘吉尔",
+    "nameZh": "大卫杜夫黑夜温斯顿丘吉尔",
+    "specs": {
+      "length": "178mm",
+      "ringGauge": 48,
+      "packaging": ""
+    },
+    "priceHkd": 5400,
+    "priceDisplay": "5400",
+    "inStock": true,
+    "image": "/products/davidoff-178mm.jpg",
+    "slug": "davidoff-178mm"
+  },
+  {
+    "id": "davidoff-152mm-9",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大衛杜夫黑夜溫斯頓公牛",
+    "nameZh": "大衛杜夫黑夜溫斯頓公牛",
+    "specs": {
+      "length": "152mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 5400,
+    "priceDisplay": "5400",
+    "inStock": true,
+    "image": "/products/davidoff-152mm-9.jpg",
+    "slug": "davidoff-152mm-9"
+  },
+  {
+    "id": "davidoff-152mm-10",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫温斯顿 公牛白色",
+    "nameZh": "大卫杜夫温斯顿公牛白色",
+    "specs": {
+      "length": "152mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 5200,
+    "priceDisplay": "5200",
+    "inStock": true,
+    "image": "/products/davidoff-152mm-10.jpg",
+    "slug": "davidoff-152mm-10"
+  },
+  {
+    "id": "davidoff-134mm",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "罗伯图白色",
+    "nameZh": "罗伯图白色",
+    "specs": {
+      "length": "134mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 5000,
+    "priceDisplay": "5000",
+    "inStock": true,
+    "image": "/products/davidoff-134mm.jpg",
+    "slug": "davidoff-134mm"
+  },
+  {
+    "id": "davidoff-174mm",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "丘吉尔白色",
+    "nameZh": "丘吉尔白色",
+    "specs": {
+      "length": "174mm",
+      "ringGauge": 47,
+      "packaging": ""
+    },
+    "priceHkd": 5400,
+    "priceDisplay": "5400",
+    "inStock": true,
+    "image": "/products/davidoff-174mm.jpg",
+    "slug": "davidoff-174mm"
+  },
+  {
+    "id": "davidoff-1000-117mm",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫签名 1000",
+    "nameZh": "大卫杜夫签名1000",
+    "specs": {
+      "length": "117mm",
+      "ringGauge": 34,
+      "packaging": ""
+    },
+    "priceHkd": 3600,
+    "priceDisplay": "3600",
+    "inStock": true,
+    "image": "/products/davidoff-1000-117mm.jpg",
+    "slug": "davidoff-1000-117mm"
+  },
+  {
+    "id": "davidoff-156mm",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫亚马逊金字塔",
+    "nameZh": "大卫杜夫亚马逊金字塔",
+    "specs": {
+      "length": "156mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 4200,
+    "priceDisplay": "4200",
+    "inStock": true,
+    "image": "/products/davidoff-156mm.jpg",
+    "slug": "davidoff-156mm"
+  },
+  {
+    "id": "davidoff-152mm-11",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫亚马逊公牛",
+    "nameZh": "大卫杜夫亚马逊公牛",
+    "specs": {
+      "length": "152mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 0,
+    "priceDisplay": "詢價",
+    "inStock": false,
+    "image": "/products/davidoff-152mm-11.jpg",
+    "slug": "davidoff-152mm-11"
+  },
+  {
+    "id": "davidoff-127mm-3",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫亚马逊罗伯图无筒",
+    "nameZh": "大卫杜夫亚马逊罗伯图无筒",
+    "specs": {
+      "length": "127mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 3600,
+    "priceDisplay": "3600",
+    "inStock": true,
+    "image": "/products/davidoff-127mm-3.jpg",
+    "slug": "davidoff-127mm-3"
+  },
+  {
+    "id": "davidoff-124mm",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "筒",
+    "nameZh": "筒",
+    "specs": {
+      "length": "124mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 5400,
+    "priceDisplay": "5400",
+    "inStock": true,
+    "image": "/products/davidoff-124mm.jpg",
+    "slug": "davidoff-124mm"
+  },
+  {
+    "id": "davidoff-114mm-1",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫艾斯库里奥罗伯图无筒",
+    "nameZh": "大卫杜夫艾斯库里奥罗伯图无筒",
+    "specs": {
+      "length": "114mm",
+      "ringGauge": 54,
+      "packaging": ""
+    },
+    "priceHkd": 3600,
+    "priceDisplay": "3600",
+    "inStock": true,
+    "image": "/products/davidoff-114mm-1.jpg",
+    "slug": "davidoff-114mm-1"
+  },
+  {
+    "id": "davidoff-127mm-4",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "罗伯图无筒",
+    "nameZh": "罗伯图无筒",
+    "specs": {
+      "length": "127mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 3600,
+    "priceDisplay": "3600",
+    "inStock": true,
+    "image": "/products/davidoff-127mm-4.jpg",
+    "slug": "davidoff-127mm-4"
+  },
+  {
+    "id": "davidoff-152mm-12",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "号",
+    "nameZh": "号",
+    "specs": {
+      "length": "152mm",
+      "ringGauge": 50,
+      "packaging": ""
+    },
+    "priceHkd": 3400,
+    "priceDisplay": "3400",
+    "inStock": true,
+    "image": "/products/davidoff-152mm-12.jpg",
+    "slug": "davidoff-152mm-12"
+  },
+  {
+    "id": "davidoff-152mm-13",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "木盒",
+    "nameZh": "木盒",
+    "specs": {
+      "length": "152mm",
+      "ringGauge": 52,
+      "packaging": ""
+    },
+    "priceHkd": 5400,
+    "priceDisplay": "5400",
+    "inStock": true,
+    "image": "/products/davidoff-152mm-13.jpg",
+    "slug": "davidoff-152mm-13"
+  },
+  {
+    "id": "davidoff-104mm",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫普裹梅羅",
+    "nameZh": "大卫杜夫普裹梅羅",
+    "specs": {
+      "length": "104mm",
+      "ringGauge": 34,
+      "packaging": ""
+    },
+    "priceHkd": 3200,
+    "priceDisplay": "3200",
+    "inStock": true,
+    "image": "/products/davidoff-104mm.jpg",
+    "slug": "davidoff-104mm"
+  },
+  {
+    "id": "davidoff-104mm-1",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大衛杜夫普裹梅羅",
+    "nameZh": "大衛杜夫普裹梅羅",
+    "specs": {
+      "length": "104mm",
+      "ringGauge": 34,
+      "packaging": ""
+    },
+    "priceHkd": 3200,
+    "priceDisplay": "3200",
+    "inStock": true,
+    "image": "/products/davidoff-104mm-1.jpg",
+    "slug": "davidoff-104mm-1"
+  },
+  {
+    "id": "davidoff",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫烟丝方草绿",
+    "nameZh": "大卫杜夫烟丝方草绿",
+    "specs": {
+      "length": "",
+      "ringGauge": null,
+      "packaging": ""
+    },
+    "priceHkd": 300,
+    "priceDisplay": "300",
+    "inStock": true,
+    "image": "/products/davidoff.jpg",
+    "slug": "davidoff"
+  },
+  {
+    "id": "davidoff-1",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫烟丝王权",
+    "nameZh": "大卫杜夫烟丝王权",
+    "specs": {
+      "length": "",
+      "ringGauge": null,
+      "packaging": ""
+    },
+    "priceHkd": 300,
+    "priceDisplay": "300",
+    "inStock": true,
+    "image": "/products/davidoff-1.jpg",
+    "slug": "davidoff-1"
+  },
+  {
+    "id": "davidoff-2",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "苏格兰混合绿",
+    "nameZh": "苏格兰混合绿",
+    "specs": {
+      "length": "",
+      "ringGauge": null,
+      "packaging": ""
+    },
+    "priceHkd": 300,
+    "priceDisplay": "300",
+    "inStock": true,
+    "image": "/products/davidoff-2.jpg",
+    "slug": "davidoff-2"
+  },
+  {
+    "id": "davidoff-3",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "大卫杜夫烟丝英国",
+    "nameZh": "大卫杜夫烟丝英国",
+    "specs": {
+      "length": "",
+      "ringGauge": null,
+      "packaging": ""
+    },
+    "priceHkd": 300,
+    "priceDisplay": "300",
+    "inStock": true,
+    "image": "/products/davidoff-3.jpg",
+    "slug": "davidoff-3"
+  },
+  {
+    "id": "davidoff-4",
+    "brandId": "davidoff",
+    "brandName": "Davidoff",
+    "brandNameZh": "大衛杜夫",
+    "name": "虎年限量",
+    "nameZh": "虎年限量",
+    "specs": {
+      "length": "",
+      "ringGauge": null,
+      "packaging": ""
+    },
+    "priceHkd": 1000,
+    "priceDisplay": "1000",
+    "inStock": true,
+    "image": "/products/davidoff-4.jpg",
+    "slug": "davidoff-4"
+  }
+]
