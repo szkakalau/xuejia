@@ -8,15 +8,14 @@ fi
 
 echo "==> Applying database schema..."
 
-if npx prisma migrate deploy; then
-  echo "==> Migrations applied."
+# migrate history may say "applied" while xuejia tables are missing (e.g. after schema change).
+npx prisma migrate deploy || echo "==> migrate deploy returned non-zero (continuing)"
+
+echo "==> Syncing schema with db push..."
+if npx prisma db push --skip-generate; then
+  echo "==> Schema ready."
 else
-  echo "==> migrate deploy failed, syncing xuejia schema..."
-  if npx prisma db push --skip-generate; then
-    echo "==> db push ok."
-  else
-    echo "==> WARN: schema sync failed. After Live, open /api/setup/run?key=ADMIN_PASSWORD"
-  fi
+  echo "==> WARN: db push failed. After Live, open /api/setup/run?key=ADMIN_PASSWORD"
 fi
 
 echo "==> Seeding if empty..."

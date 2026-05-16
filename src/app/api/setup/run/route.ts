@@ -13,20 +13,23 @@ function checkKey(request: NextRequest): boolean {
 }
 
 function runMigrations(): { migrate: string } {
+  let migrateNote = "migrate deploy skipped";
   try {
     execSync("npx prisma migrate deploy", { stdio: "pipe", encoding: "utf8" });
-    return { migrate: "migrate deploy ok" };
+    migrateNote = "migrate deploy ok";
   } catch {
-    try {
-      execSync("npx prisma db push --skip-generate", {
-        stdio: "pipe",
-        encoding: "utf8",
-      });
-      return { migrate: "db push ok" };
-    } catch (error) {
-      const message = error instanceof Error ? error.message : String(error);
-      return { migrate: `failed: ${message}` };
-    }
+    migrateNote = "migrate deploy failed (continuing)";
+  }
+
+  try {
+    execSync("npx prisma db push --skip-generate", {
+      stdio: "pipe",
+      encoding: "utf8",
+    });
+    return { migrate: `${migrateNote}; db push ok` };
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    return { migrate: `${migrateNote}; db push failed: ${message}` };
   }
 }
 
