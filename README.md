@@ -80,11 +80,11 @@ npm run db:seed
 
 1. 创建 **Web Service**，连接 GitHub `szkakalau/xuejia`
 2. 环境变量：`DATABASE_URL`、`ADMIN_PASSWORD`、`ADMIN_SESSION_SECRET`、`NEXT_PUBLIC_SITE_URL`、Stripe 相关
-3. Build Command：
-   ```bash
-   npm install && npx prisma generate && npx prisma migrate deploy && npm run build
-   ```
-4. 首次部署后在 Render Shell 执行：`npm run db:seed`
+3. Build / Start（见 `render.yaml`）：
+   - Build：`npm install && npx prisma generate && npm run build`
+   - Start：`npx prisma migrate deploy && npm start`
+4. 环境变量 **必须**填写 `DATABASE_URL`，否则部署失败
+5. 首次 Live 后在 Shell 执行：`npm run db:seed`
 
 ## 部署（Vercel + Render 数据库）
 

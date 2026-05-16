@@ -58,7 +58,7 @@ export function CategoriesView() {
         <div className="px-4 py-20 text-center">
           <p className="text-sm text-red-400">{error}</p>
           <p className="mt-2 text-xs text-foreground/50">
-            若持續失敗，請確認 Vercel 已設定 DATABASE_URL（Render 外网地址）并已执行 migrate / seed。
+            若持續失敗，請確認已設定 DATABASE_URL，并在 Shell 執行 migrate 與 db:seed。
           </p>
         </div>
       ) : (
