@@ -1,3 +1,5 @@
+import "server-only";
+
 import { prisma } from "@/lib/db";
 import { mapDbProduct } from "@/lib/product-mapper";
 import type { Brand, Product } from "@/types";
@@ -58,7 +60,3 @@ export async function searchProducts(query: string): Promise<Product[]> {
   return rows.map(mapDbProduct);
 }
 
-export function formatPrice(hkd: number): string {
-  if (!hkd) return "詢價";
-  return `HK$${hkd.toLocaleString("zh-HK")}`;
-}

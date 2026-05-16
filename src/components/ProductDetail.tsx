@@ -7,7 +7,7 @@ import { useState } from "react";
 import { PageHeader } from "@/components/PageHeader";
 import { ShopShell } from "@/components/ShopShell";
 import { useCart } from "@/context/CartContext";
-import { formatPrice } from "@/lib/products";
+import { formatPrice } from "@/lib/format-price";
 import type { Product } from "@/types";
 
 export function ProductDetail({ product }: { product: Product }) {

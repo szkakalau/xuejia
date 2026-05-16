@@ -6,7 +6,7 @@ import { useState } from "react";
 import { PageHeader } from "@/components/PageHeader";
 import { ShopShell } from "@/components/ShopShell";
 import { useCart } from "@/context/CartContext";
-import { formatPrice } from "@/lib/products";
+import { formatPrice } from "@/lib/format-price";
 
 export default function CartPage() {
   const { items, totalHkd, setQuantity, removeItem, clearCart } = useCart();

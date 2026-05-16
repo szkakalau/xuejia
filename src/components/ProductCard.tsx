@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { AddToCartButton } from "@/components/AddToCartButton";
-import { formatPrice } from "@/lib/products";
+import { formatPrice } from "@/lib/format-price";
 import type { Product } from "@/types";
 
 interface ProductCardProps {
