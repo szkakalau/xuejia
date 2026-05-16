@@ -1,5 +1,5 @@
 #!/bin/sh
-set -e
+# Do not use set -e: DB setup may warn; Next.js should still start.
 
 sh scripts/render-db.sh
 

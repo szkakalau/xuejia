@@ -96,7 +96,7 @@ npm run db:seed
    - 然后：`Starting Next.js...` → 状态 **Live**
 
 7. **导入商品**（无需 Shell，免费版可用）
-   - 部署时 **自动**：`render-db.sh` 在 build/start 执行 migrate + 空库 seed
+   - 部署 **启动时** 自动：`render-db.sh` 执行 migrate + 空库 seed（不在 build 阶段连库，避免 Render 构建失败）
    - 若仍无商品，浏览器打开（将 `你的密码` 换成 `ADMIN_PASSWORD`）：
      `https://xuejia.onrender.com/api/setup/run?key=你的密码`
 

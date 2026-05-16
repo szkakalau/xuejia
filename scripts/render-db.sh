@@ -1,5 +1,5 @@
 #!/bin/sh
-# Migrate + seed when DATABASE_URL is set (build or start on Render).
+# Run at container START only (Render build cannot reach Internal DATABASE_URL).
 
 if [ -z "$DATABASE_URL" ]; then
   echo "==> DATABASE_URL not set, skip database setup."
@@ -12,8 +12,18 @@ if npx prisma migrate deploy; then
   echo "==> Migrations applied."
 else
   echo "==> migrate deploy failed, syncing xuejia schema..."
-  npx prisma db push --skip-generate
+  if npx prisma db push --skip-generate; then
+    echo "==> db push ok."
+  else
+    echo "==> WARN: schema sync failed. After Live, open /api/setup/run?key=ADMIN_PASSWORD"
+  fi
 fi
 
 echo "==> Seeding if empty..."
-npx tsx scripts/seed-if-empty.ts
+if npx tsx scripts/seed-if-empty.ts; then
+  echo "==> Seed step done."
+else
+  echo "==> WARN: seed failed. After Live, open /api/setup/run?key=ADMIN_PASSWORD"
+fi
+
+exit 0
