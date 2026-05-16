@@ -1,0 +1,39 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Brand {
+  id     String    @id
+  name   String
+  nameZh String    @map("name_zh")
+  slug   String    @unique
+  products Product[]
+}
+
+model Product {
+  id          String   @id
+  slug        String   @unique
+  brandId     String   @map("brand_id")
+  brandName   String   @map("brand_name")
+  brandNameZh String   @map("brand_name_zh")
+  name        String
+  nameZh      String   @map("name_zh")
+  length      String   @default("")
+  ringGauge   Int?     @map("ring_gauge")
+  packaging   String   @default("")
+  priceHkd    Int      @default(0) @map("price_hkd")
+  inStock     Boolean  @default(true) @map("in_stock")
+  image       String   @default("/products/placeholder.jpg")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  brand Brand @relation(fields: [brandId], references: [id], onDelete: Restrict)
+
+  @@index([brandId])
+  @@map("products")
+}

@@ -1,36 +1,61 @@
-import brandsData from "../../data/brands.json";
-import productsData from "../../data/products.json";
+import { prisma } from "@/lib/db";
+import { mapDbProduct } from "@/lib/product-mapper";
 import type { Brand, Product } from "@/types";
 
-export const brands: Brand[] = brandsData as Brand[];
-export const products: Product[] = productsData as Product[];
-
-export function getBrandById(id: string): Brand | undefined {
-  return brands.find((b) => b.id === id);
+export async function getBrands(): Promise<Brand[]> {
+  const rows = await prisma.brand.findMany({ orderBy: { name: "asc" } });
+  return rows.map((b) => ({
+    id: b.id,
+    name: b.name,
+    nameZh: b.nameZh,
+    slug: b.slug,
+  }));
 }
 
-export function getProductBySlug(slug: string): Product | undefined {
-  return products.find((p) => p.slug === slug);
+export async function getBrandById(id: string): Promise<Brand | undefined> {
+  const b = await prisma.brand.findUnique({ where: { id } });
+  if (!b) return undefined;
+  return { id: b.id, name: b.name, nameZh: b.nameZh, slug: b.slug };
 }
 
-export function getProductById(id: string): Product | undefined {
-  return products.find((p) => p.id === id);
+export async function getProducts(): Promise<Product[]> {
+  const rows = await prisma.product.findMany({ orderBy: [{ brandId: "asc" }, { name: "asc" }] });
+  return rows.map(mapDbProduct);
 }
 
-export function getProductsByBrand(brandId: string): Product[] {
-  return products.filter((p) => p.brandId === brandId);
+export async function getProductBySlug(slug: string): Promise<Product | undefined> {
+  const row = await prisma.product.findUnique({ where: { slug } });
+  return row ? mapDbProduct(row) : undefined;
 }
 
-export function searchProducts(query: string): Product[] {
-  const q = query.trim().toLowerCase();
-  if (!q) return products;
-  return products.filter(
-    (p) =>
-      p.name.toLowerCase().includes(q) ||
-      p.nameZh.toLowerCase().includes(q) ||
-      p.brandName.toLowerCase().includes(q) ||
-      p.brandNameZh.toLowerCase().includes(q)
-  );
+export async function getProductById(id: string): Promise<Product | undefined> {
+  const row = await prisma.product.findUnique({ where: { id } });
+  return row ? mapDbProduct(row) : undefined;
+}
+
+export async function getProductsByBrand(brandId: string): Promise<Product[]> {
+  const rows = await prisma.product.findMany({
+    where: { brandId },
+    orderBy: { name: "asc" },
+  });
+  return rows.map(mapDbProduct);
+}
+
+export async function searchProducts(query: string): Promise<Product[]> {
+  const q = query.trim();
+  if (!q) return getProducts();
+  const rows = await prisma.product.findMany({
+    where: {
+      OR: [
+        { name: { contains: q, mode: "insensitive" } },
+        { nameZh: { contains: q, mode: "insensitive" } },
+        { brandName: { contains: q, mode: "insensitive" } },
+        { brandNameZh: { contains: q, mode: "insensitive" } },
+      ],
+    },
+    orderBy: { name: "asc" },
+  });
+  return rows.map(mapDbProduct);
 }
 
 export function formatPrice(hkd: number): string {

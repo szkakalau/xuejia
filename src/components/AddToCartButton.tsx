@@ -2,18 +2,17 @@
 
 import { useState } from "react";
 import { useCart } from "@/context/CartContext";
+import type { Product } from "@/types";
 
 interface AddToCartButtonProps {
-  productId: string;
-  inStock: boolean;
+  product: Product;
   variant?: "card" | "bar";
   quantity?: number;
   className?: string;
 }
 
 export function AddToCartButton({
-  productId,
-  inStock,
+  product,
   variant = "card",
   quantity = 1,
   className = "",
@@ -24,8 +23,8 @@ export function AddToCartButton({
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    if (!inStock) return;
-    addItem(productId, quantity);
+    if (!product.inStock) return;
+    addItem(product, quantity);
     setFeedback(true);
     window.setTimeout(() => setFeedback(false), 1500);
   };
@@ -34,7 +33,7 @@ export function AddToCartButton({
     return (
       <button
         type="button"
-        disabled={!inStock}
+        disabled={!product.inStock}
         onClick={handleClick}
         aria-label="加入購物車"
         className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-gold/60 text-gold transition enabled:active:scale-95 enabled:hover:bg-gold/15 disabled:border-surface-border disabled:text-foreground/30 ${className}`}

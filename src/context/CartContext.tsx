@@ -8,7 +8,6 @@ import {
   useMemo,
   useState,
 } from "react";
-import { getProductById } from "@/lib/products";
 import type { CartItem, Product } from "@/types";
 
 const STORAGE_KEY = "cigar-cart";
@@ -21,7 +20,7 @@ interface CartContextValue {
   items: CartLine[];
   count: number;
   totalHkd: number;
-  addItem: (productId: string, qty?: number) => void;
+  addItem: (product: Product, qty?: number) => void;
   removeItem: (productId: string) => void;
   setQuantity: (productId: string, quantity: number) => void;
   clearCart: () => void;
@@ -56,12 +55,8 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
 
   const items = useMemo(() => {
     return rawItems
-      .map((item) => {
-        const product = getProductById(item.productId);
-        if (!product) return null;
-        return { ...item, product };
-      })
-      .filter((x): x is CartLine => x !== null);
+      .filter((item) => item.product)
+      .map((item) => ({ ...item, product: item.product! }));
   }, [rawItems]);
 
   const count = useMemo(
@@ -78,19 +73,18 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     [items]
   );
 
-  const addItem = useCallback((productId: string, qty = 1) => {
-    const product = getProductById(productId);
-    if (!product?.inStock) return;
+  const addItem = useCallback((product: Product, qty = 1) => {
+    if (!product.inStock) return;
     setRawItems((prev) => {
-      const existing = prev.find((i) => i.productId === productId);
+      const existing = prev.find((i) => i.productId === product.id);
       if (existing) {
         return prev.map((i) =>
-          i.productId === productId
-            ? { ...i, quantity: i.quantity + qty }
+          i.productId === product.id
+            ? { ...i, quantity: i.quantity + qty, product }
             : i
         );
       }
-      return [...prev, { productId, quantity: qty }];
+      return [...prev, { productId: product.id, quantity: qty, product }];
     });
   }, []);
 

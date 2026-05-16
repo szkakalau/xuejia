@@ -22,7 +22,7 @@ export async function POST(request: Request) {
     }[] = [];
 
     for (const item of items) {
-      const product = getProductById(item.productId);
+      const product = await getProductById(item.productId);
       if (!product) {
         return NextResponse.json({ error: `商品不存在: ${item.productId}` }, { status: 400 });
       }

@@ -46,7 +46,7 @@ export function ProductCard({ product }: ProductCardProps) {
         </div>
       </Link>
       <div className="flex shrink-0 flex-col items-center justify-center gap-1 pr-1">
-        <AddToCartButton productId={product.id} inStock={product.inStock} variant="card" />
+        <AddToCartButton product={product} variant="card" />
       </div>
     </div>
   );

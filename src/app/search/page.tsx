@@ -1,14 +1,28 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { ProductCard } from "@/components/ProductCard";
 import { PageHeader } from "@/components/PageHeader";
 import { ShopShell } from "@/components/ShopShell";
-import { searchProducts } from "@/lib/products";
+import type { Product } from "@/types";
 
 export default function SearchPage() {
   const [query, setQuery] = useState("");
-  const results = useMemo(() => searchProducts(query), [query]);
+  const [results, setResults] = useState<Product[]>([]);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const timer = window.setTimeout(async () => {
+      setLoading(true);
+      const params = new URLSearchParams();
+      if (query.trim()) params.set("q", query.trim());
+      const res = await fetch(`/api/products?${params.toString()}`);
+      const data = await res.json();
+      setResults(data.products ?? []);
+      setLoading(false);
+    }, 300);
+    return () => window.clearTimeout(timer);
+  }, [query]);
 
   return (
     <ShopShell>
@@ -23,7 +37,9 @@ export default function SearchPage() {
           autoFocus
         />
       </div>
-      <p className="px-4 pb-2 text-xs text-foreground/50">{results.length} 個結果</p>
+      <p className="px-4 pb-2 text-xs text-foreground/50">
+        {loading ? "搜尋中…" : `${results.length} 個結果`}
+      </p>
       <div className="px-3">
         {results.map((p) => (
           <ProductCard key={p.id} product={p} />
