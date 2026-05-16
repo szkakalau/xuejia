@@ -7,7 +7,7 @@ services:
     name: xuejia
     runtime: node
     plan: free
-    buildCommand: npm install && npx prisma generate && npm run build
+    buildCommand: npm install && npx prisma generate && sh scripts/render-db.sh && npm run build
     startCommand: sh scripts/render-start.sh
     envVars:
       - key: NODE_VERSION

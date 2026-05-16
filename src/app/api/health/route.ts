@@ -25,7 +25,7 @@ export async function GET() {
       productCount,
       hint:
         productCount === 0
-          ? "資料庫已連接但無商品，請在 Shell 執行：npm run db:seed"
+          ? "資料庫已連接但無商品。免費版請訪問 /api/setup/run?key=ADMIN_PASSWORD 或等待重新部署自動 seed"
           : undefined,
     });
   } catch (error) {

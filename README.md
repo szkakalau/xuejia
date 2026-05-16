@@ -95,10 +95,10 @@ npm run db:seed
    - 空库上应出现：`Migrations applied.`（不再 P3005）
    - 然后：`Starting Next.js...` → 状态 **Live**
 
-7. **导入商品**（Shell，仅首次、且 `productCount` 为 0 时）：
-   ```bash
-   npm run db:seed
-   ```
+7. **导入商品**（无需 Shell，免费版可用）
+   - 部署时 **自动**：`render-db.sh` 在 build/start 执行 migrate + 空库 seed
+   - 若仍无商品，浏览器打开（将 `你的密码` 换成 `ADMIN_PASSWORD`）：
+     `https://xuejia.onrender.com/api/setup/run?key=你的密码`
 
 8. **验证**
    - `https://xuejia.onrender.com/api/health` → `"ok":true`
@@ -114,7 +114,7 @@ npm run db:seed
    - `DATABASE_URL` = 上一步复制的 Internal URL
    - `ADMIN_PASSWORD`、`ADMIN_SESSION_SECRET` = 自行设置
    - `NEXT_PUBLIC_SITE_URL` = 部署成功后的 `https://xuejia.onrender.com`
-4. 部署完成后在 Web Service **Shell** 执行：`npm run db:seed`
+4. 部署会自动 migrate + seed；若需手动可访问 `/api/setup/run?key=ADMIN_PASSWORD`
 
 ### 方案 B：账户里还没有任何免费库
 
@@ -128,7 +128,7 @@ npm run db:seed
    - Build：`npm install && npx prisma generate && npm run build`
    - Start：`sh scripts/render-start.sh`（共享库若报 P3005 会自动 `db push`）
 4. 环境变量 **必须**填写 `DATABASE_URL`，否则部署失败
-5. 首次 Live 后在 Shell 执行：`npm run db:seed`
+5. 首次部署会自动 seed；或访问 `/api/setup/run?key=ADMIN_PASSWORD`
 
 ## 部署（Vercel + Render 数据库）
 
